@@ -22,19 +22,27 @@ sources:
   ai_summary: none   # LMS AI summaries start ~Jul 2026; none exist for this class
 
 processing:
-  status: notes-generated
-  01_topic_breakdown: generated
-  02_short_summary: generated
-  03_detailed_notes: generated
-  04_activities: generated
-  05_qa: generated
-  06_concept_links: generated
+  status: textbook-generated (standard v2)
+  standard: "8-file textbook standard — approved 2026-11-17 (proposal: 8 deliverables + vault-root concept notes)"
+  01_lesson_overview: generated
+  02_study_notes: generated        # primary textbook chapter — 12 chapters, concepts treated A–H
+  03_code_examples: generated      # instructor code (reconstructed, names as established) + AI-supplementary labeled
+  04_activities: generated         # A assigned / B demonstrated / C AI practice
+  05_question_bank: generated      # 10 categories, detailed answers, practice-only (not official exams)
+  06_concept_links: generated      # subject knowledge graph
+  07_revision_sheet: generated
+  08_source_reference: generated   # claim→source→timestamp→status + Appendix A segment map (51) + ASR table
+  concept_notes: 15                # vault-root concepts/ — [[GameObject]] … [[Asset Organization]]
+  legacy_six_file_format: superseded (files deleted; recoverable in git history @ ac4054f)
   verified: false   # set true only after the user reviews the deliverables (dashboard gate)
 
 policy:
-  - Raw VTT is immutable; every generated note cites timestamps into it.
-  - SOURCE / AI SUPPLEMENT / UNVERIFIED labels used throughout all deliverables.
-  - Activities listed only where the instructor explicitly assigned them.
+  - Raw VTT is immutable; ALL timestamps live in 08-source-reference.md — study material carries none.
+  - Content categories: SOURCE / SUPPLEMENTARY / UNVERIFIED, marked inline where relevant.
+  - Instructor simplifications are corrected with the teaching point preserved (see 08 corrections table).
+  - Activities: A = explicitly assigned by instructor; B = demonstrated in class; C = AI practice, never presented as instructor work.
+  - Instructor code is reconstructed from narration; exact variable names only where the transcript establishes them.
+  - Question-bank questions are practice questions, never represented as official exam questions.
 
-generated_on: 2026-11-16
+generated_on: 2026-11-17
 generated_by: OpenCode pipeline (human-reviewed gate pending)
