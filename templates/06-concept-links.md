@@ -1,28 +1,33 @@
-# <Lxx> — Concept Relationship Links (Deliverable 6)
+# Lxx — Concept Links (Knowledge Graph) (template)
 
-> Every link below must be justified by evidence: a statement in the transcript, a demonstrated
-> dependency in code, or structural use across lessons. Keyword similarity alone is never a link.
-> Relationship types used by this vault:
-> **prerequisite-for** · **depends-on** · **part-of** · **related** · **contrasted-with** · **continuation-of**
+> Lesson's **subject knowledge** as a concept graph — not the video's event sequence.
+> Concept notes live in `03-Knowledge-Graph/Concepts/<Category>/` ([[WikiLinks]] resolve vault-wide).
 
-**Class:** <title> · <date>
+## Graph overview
+```mermaid
+graph TD
+    %% curated topic map only — real links live in the notes below
+```
 
 ## Concepts introduced in this lesson
+| Concept (→ note) | Introduced how | Status |
+|---|---|---|
 
-| Concept (→ concept note) | First appears at | Introduced how |
-|--------------------------|------------------|----------------|
+## Detailed links
+| From | Relationship | To | Why this link is real |
+|---|---|---|---|
+Relationship types: prerequisite-for · depends-on · part-of · related-to · implemented-in ·
+extends · explained-in. **Every row needs a justification** — no co-occurrence-only links.
+Uncertain → flag in the note (`<!-- FLAG: uncertain -->`), not published as fact.
 
-## Outgoing links (this lesson → other concepts)
+## Prerequisite chain (learning order)
+```text
+A ─► B ─► C …
+```
 
-| Link | Type | Evidence (timestamp + quote/demonstration) |
-|------|------|---------------------------------------------|
+## Concept notes index
+| Note | One-line summary | New/Existing |
+|---|---|---|
 
-## Incoming links (other lessons → this lesson's concepts)
-
-| Link | Type | Evidence |
-|------|------|----------|
-
-## Weakest / shaky concepts (self-assessment targets)
-
-<!-- Concepts from this lesson that the transcript suggests were rushed, garbled by ASR, or
-     demonstrated too briefly — candidates to re-watch or practice. Each with timestamps. -->
+## Open threads (deferred / named-but-not-taught)
+- Concept — how it appeared — planned treatment

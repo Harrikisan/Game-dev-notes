@@ -22,6 +22,7 @@
 **Note:** for all Batch-01 classes the LMS "Topics" cell contains only the class title — no
 subtopic list was entered by the instructor. The detailed topic structure for this lesson is
 therefore derived from the recording transcript itself, with timestamps:
-see `lessons/batch01/L01-introduction-to-csharp/01-topic-breakdown.md`.
+see the chronological segment map in
+`lessons/batch01/L01-introduction-to-csharp/08-source-reference.md`.
 
 *Extraction: 2026-11-16, from `GET /nuSource/api/v1/class/attendance` (agenda field, HTML stripped).*

@@ -1,40 +1,71 @@
+# Concept Note Template (v2)
+
+> Used for every note in `03-Knowledge-Graph/Concepts/<Category>/`. Copy, fill, keep the
+> section order. Sections marked *(where applicable)* may be omitted only when genuinely
+> inapplicable — never because content is missing.
+
 ---
 type: concept
-course: Advanced Diploma in Game Development
-first_taught: "<Lxx or pre-course>"
-tags: []
+name: Concept Name
+category: Unity | CSharp | Game-Development | Programming-Fundamentals
+introduced_in: Lxx
+status: draft | verified
+aliases: []
 ---
 
-# <Concept Name>
+# Concept Name
+
+**Introduced:** Lxx · **Status:** draft/verified · **Registry:** [concept-registry.md](../../concept-registry.md)
 
 ## Definition
+What it is, precisely — one to three sentences, technically correct.
 
-<!-- 1–3 sentences, plain language, course-scoped. -->
+## Purpose and Importance
+Why it exists; what problem it solves; why a game developer needs it.
 
-## Where it was taught
+## Detailed Explanation
+The full teaching treatment (internal working, practical meaning, analogies, game examples).
 
-<!-- Lesson(s) + timestamps, e.g. L01 @ 00:23:10 (link to breakdown). -->
+## How It Works
+Mechanics: what Unity/C# actually does — properties, flow, data.
 
-## Why it matters in this course
+## Practical Example
+A concrete worked example from a lesson or a labeled AI-supplementary one.
 
-<!-- Instructor's framing if stated [SOURCE]; otherwise [AI SUPPLEMENT]. -->
+## Code Example *(where applicable)*
+```csharp
+// complete, runnable snippet
+```
+With brief line explanations.
+
+## Prerequisites
+- [[Prerequisite Concept]] — why it must come first
+
+## Related Concepts
+[[A]] · [[B]] · [[C]]
 
 ## Relationships
+Typed list — every relationship carries a justification:
+- **depends-on** → [[X]] — without X, this cannot work because …
+- **part-of** → [[Y]] — this is one piece of Y's structure …
+- **prerequisite-for** → [[Z]] — Z cannot be understood/used without this …
+- **implemented-in** → `lessons/…/03-code-examples.md` — where it is exercised in code
+- **extends** → [[W]] — the Lxx lesson added this to what Lyy established
+- **explained-in** → `lessons/…/02-study-notes.md#chapter` — the full teaching chapter
+<!-- FLAG: uncertain — relationship suspected but not established; do not publish as fact -->
 
-- **Prerequisite for:** [[Concept]] — <one-line reason>
-- **Depends on:** [[Concept]]
-- **Part of:** [[Concept]]
-- **Related:** [[Concept]]
-- **Contrasted with:** [[Concept]]
-- **Continuation of:** [[Concept]]
+## Lesson History
+| Lesson | What it contributed |
+|---|---|
+| Lxx | introduced: … (first explanation/demo) |
 
-<!-- Only include a relationship if the Evidence section below justifies it. Delete empty rows. -->
+## Source Verification
+- **Status:** SOURCE-backed (Lxx) · corrections applied: none | *(list any)*
+- Traceability: `lessons/<batch>/Lxx…/08-source-reference.md`
+- SUPPLEMENTARY additions (not from the instructor): *(list or "none")*
 
-## Evidence
+## Common Mistakes
+- Mistake — why it happens — fix
 
-<!-- Transcript quotes with timestamps (lesson + hh:mm:ss) or code demonstrations that
-     justify each relationship above. One bullet per relationship. -->
-
-## Backlinks
-
-<!-- Auto-maintained list of lessons/concepts referencing this note. -->
+## Takeaway
+The one paragraph to remember.

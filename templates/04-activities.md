@@ -1,24 +1,26 @@
-# <Lxx> — Activities (Deliverable 4)
+# Lxx — Activities (template)
 
-> **STRICT POLICY:** this file lists ONLY activities the instructor explicitly assigned during the
-> recording (homework, practice tasks, "do this before next class", in-class exercises students
-> were told to complete). Nothing is invented. Every item cites the timestamp where it was assigned.
-> If nothing was assigned, say so explicitly after sweeping the full transcript.
+> **A** = explicitly assigned by the instructor (intent preserved verbatim) ·
+> **B** = demonstrated live (redo solo) · **C** = AI-generated practice (**never** instructor work).
+> Timestamps for assignments/demos live in `08-source-reference.md`.
 
-**Class:** <title> · <date> · Transcript: `<vtt path>`
+## A. Assigned by the instructor
+### A<n>. <Title>
+| | |
+|---|---|
+| **Objective** | |
+| **Requirements** | |
+| **Tools** | |
+| **Steps** | |
+| **Expected output** | |
+| **Solution / check against** | |
+| **Verification checklist** | - [ ] … |
 
-## Assigned in class (SOURCE)
+## B. Demonstrated in class (repeat these solo)
+Same table shape; cross-reference `03-code-examples.md` for full detail where applicable.
 
-| # | Activity (as assigned, near-verbatim) | Assigned at | Deadline stated? | Context / notes |
-|---|----------------------------------------|-------------|------------------|-----------------|
+## C. AI-generated practice (not from class)
+Same table shape; explicitly labeled; stay strictly within the lesson's taught patterns.
 
-<!-- Use near-verbatim wording; paraphrase minimally. "Deadline stated?" = No / date given in class. -->
-
-## In-class exercises students were walked through (not homework)
-
-<!-- Live-code tasks the class did together during the recording, with timestamps. -->
-
-## Not assigned — optional practice suggestions [AI SUPPLEMENT]
-
-<!-- Clearly separated from instructor work. Only include if genuinely useful; keep short.
-     If the instructor assigned work, consider omitting this section entirely to avoid dilution. -->
+## Summary
+Count table + priority guidance if time is short.
