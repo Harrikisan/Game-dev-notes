@@ -7,6 +7,7 @@
 
 | Map | Scope |
 |---|---|
+| [`course-flow.canvas`](course-flow.canvas) | **Hand-laid learning-flow board** (Obsidian Canvas — fixed positions, no physics; the "organized" view of the graph) |
 | [`map-csharp.md`](map-csharp.md) | C# language concepts (established + the C/C++ backlog hook) |
 | [`map-unity.md`](map-unity.md) | Unity engine concepts (13 notes) + the design-workflow entry point |
 | [`map-course.md`](map-course.md) | The full course graph: all categories, pending concepts, cross-lesson flow |
