@@ -7,7 +7,7 @@
 
 | Lesson | Date | Topic | Status | Transcript | Breakdown | Notes | QA | Verified |
 |---|---|---|---|---|---|---|---|---|
-| L01 | 2026-05-07 | Introduction to C# | Source Collected | ✅ archived | — | — | — | — |
+| L01 | 2026-05-07 | Introduction to C# | Notes Generated | ✅ archived | ✅ [01](lessons/batch01/L01-introduction-to-csharp/01-topic-breakdown.md) | ✅ [02](lessons/batch01/L01-introduction-to-csharp/02-short-summary.md) · [03](lessons/batch01/L01-introduction-to-csharp/03-detailed-notes.md) · [04](lessons/batch01/L01-introduction-to-csharp/04-activities.md) · [05](lessons/batch01/L01-introduction-to-csharp/05-qa.md) · [06](lessons/batch01/L01-introduction-to-csharp/06-concept-links.md) | ✅ | — (awaiting your review) |
 | L02 | 2026-05-08 | C# classes applications | Not Started | — | — | — | — | — |
 | L03 | 2026-05-11 | Mini Game in C# | Not Started | — | — | — | — | — |
 | L04 | 2026-05-12 | Enhancing the mini game with inheritance | Not Started | — | — | — | — | — |

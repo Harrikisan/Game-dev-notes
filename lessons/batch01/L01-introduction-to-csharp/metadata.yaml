@@ -15,7 +15,7 @@ my_attendance: PRESENT
 sources:
   transcript_vtt: transcripts/batch01/L01/L01-11436983.vtt
   transcript_sha256: 5D04178CEF557FC7EF6E52776A7F10FC95BD12622F8ACCF279F20C31B0A2A505
-  transcript_lines: 5716
+  transcript_lines: 7621
   transcript_cues: 1905
   transcript_language: "en-x-autogen (English, auto-generated)"
   agenda: transcripts/batch01/L01/L01-agenda.md
