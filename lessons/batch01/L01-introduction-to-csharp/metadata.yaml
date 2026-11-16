@@ -1,0 +1,40 @@
+lesson: L01
+title: Introduction to C#
+batch: batch01
+course: Advanced Diploma in Game Development (April 2026 batch)
+module: Programming Fundamentals : C#
+date: 2026-05-07
+weekday: Thursday
+time_ist: "19:30-21:30"
+duration_hms: "1:54:42"
+instructor: Nikhil Vijay Raj
+attendance_id: 11436983
+vimeo_id: 1190185452
+my_attendance: PRESENT
+
+sources:
+  transcript_vtt: transcripts/batch01/L01/L01-11436983.vtt
+  transcript_sha256: 5D04178CEF557FC7EF6E52776A7F10FC95BD12622F8ACCF279F20C31B0A2A505
+  transcript_lines: 5716
+  transcript_cues: 1905
+  transcript_language: "en-x-autogen (English, auto-generated)"
+  agenda: transcripts/batch01/L01/L01-agenda.md
+  ai_summary: none   # LMS AI summaries start ~Jul 2026; none exist for this class
+
+processing:
+  status: notes-generated
+  01_topic_breakdown: generated
+  02_short_summary: generated
+  03_detailed_notes: generated
+  04_activities: generated
+  05_qa: generated
+  06_concept_links: generated
+  verified: false   # set true only after the user reviews the deliverables (dashboard gate)
+
+policy:
+  - Raw VTT is immutable; every generated note cites timestamps into it.
+  - SOURCE / AI SUPPLEMENT / UNVERIFIED labels used throughout all deliverables.
+  - Activities listed only where the instructor explicitly assigned them.
+
+generated_on: 2026-11-16
+generated_by: OpenCode pipeline (human-reviewed gate pending)

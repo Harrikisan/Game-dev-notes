@@ -1,0 +1,8 @@
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Obsidian workspace state (vault settings themselves are tracked)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
