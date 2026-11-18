@@ -78,10 +78,26 @@ graph TD
     ACI -.-> GO
 ```
 
+## Track structure (Phase 2a classification, added 2026-11-18)
+
+All 99 lessons are now classified from transcript content
+(`01-Raw-Materials/LESSON-CLASSIFICATION.json`; per-lesson fields in each `metadata.yaml`):
+
+| Track | Lessons | Map |
+|---|---|---|
+| A — GAME_DEVELOPMENT | 89 | [`map-track-game-development.md`](map-track-game-development.md) |
+| B — GAME_DESIGN | 9 | [`map-track-game-design.md`](map-track-game-design.md) |
+| C — CROSS_DISCIPLINARY | 1 (L36) | [`map-track-cross-disciplinary.md`](map-track-cross-disciplinary.md) |
+| D — UNCLASSIFIED | 0 | — (see `00-Dashboard/UNCLASSIFIED-LESSONS.md`) |
+
+The concept-level graph above (established notes + pending hooks) is unchanged; the track
+maps organize the **lesson flow** per track. Dashboard views: `00-Dashboard/COURSE-INDEX.md`.
+
 ## Real-links lists
 
 - Unity-side pairs: [`map-unity.md`](map-unity.md)
 - C#-side pairs: [`map-csharp.md`](map-csharp.md)
+- Track-level lesson flow: [`map-track-game-development.md`](map-track-game-development.md) · [`map-track-game-design.md`](map-track-game-design.md) · [`map-track-cross-disciplinary.md`](map-track-cross-disciplinary.md)
 - Pending concepts appear here **only as dashed hooks** — they are deliberately note-less until a
   lesson teaches them (see `concept-registry.md` → *Pending / deferred concepts*).
 

@@ -29,3 +29,23 @@
 | Lesson | VTT | Agenda | AI summary (LMS) |
 |---|---|---|---|
 | L01 | ✅ `transcripts/batch01/L01/L01-11436983.vtt` | ✅ agenda = title (no subtopic list in LMS) | none (pre-Jul-2026) |
+
+---
+
+## Learning tracks (Phase 2a — added 2026-11-18)
+
+All 99 lessons are classified from transcript content into learning tracks
+(`01-Raw-Materials/LESSON-CLASSIFICATION.json`; the 6 classification fields are merged
+into every lesson's `metadata.yaml`):
+
+| Track | Lessons | Index | Textbook outline |
+|---|---|---|---|
+| A — GAME_DEVELOPMENT | 89 | [GAME-DEVELOPMENT-INDEX.md](00-Dashboard/GAME-DEVELOPMENT-INDEX.md) | [Game-Development/README.md](02-Textbooks/Game-Development/README.md) |
+| B — GAME_DESIGN | 9 | [GAME-DESIGN-INDEX.md](00-Dashboard/GAME-DESIGN-INDEX.md) | [Game-Design/README.md](02-Textbooks/Game-Design/README.md) |
+| C — CROSS_DISCIPLINARY | 1 (L36) | [CROSS-DISCIPLINARY-INDEX.md](00-Dashboard/CROSS-DISCIPLINARY-INDEX.md) | [Cross-Disciplinary/README.md](02-Textbooks/Cross-Disciplinary/README.md) |
+| D — UNCLASSIFIED | 0 | [UNCLASSIFIED-LESSONS.md](00-Dashboard/UNCLASSIFIED-LESSONS.md) | — |
+
+- **Master view (chronological, verbatim titles/dates/instructors):** [00-Dashboard/COURSE-INDEX.md](00-Dashboard/COURSE-INDEX.md).
+- **Topic maps:** `03-Knowledge-Graph/Maps/map-track-game-development.md` · `map-track-game-design.md` · `map-track-cross-disciplinary.md` (+ updated `map-course.md`).
+- **Assessment/activity routing** (A = instructor-assigned, B = class-demonstrated, C = AI-generated; by lesson `primary_track`): `04-Questions/` and `05-Practical-Activities/` READMEs.
+- **Textbook chapters are NOT generated yet** — the three outlines above are progression-only, awaiting approval.

@@ -1,53 +1,48 @@
 {
-	"nodes": [
-		{"id":"g1","type":"group","x":-40,"y":440,"width":340,"height":150,"color":"6","label":"① DESIGN — visual first, functionality second"},
-		{"id":"n-vsd","type":"file","file":"03-Knowledge-Graph/Concepts/Game-Development/Visual-First System Design.md","x":0,"y":490,"width":260,"height":60},
-
+	"nodes":[
+		{"id":"g4","type":"group","x":1100,"y":10,"width":340,"height":1030,"color":"4","label":"④ CAPABILITIES — space · appearance · execution"},
 		{"id":"g2","type":"group","x":340,"y":360,"width":340,"height":300,"color":"5","label":"② THE CONTAINER WORLD"},
+		{"id":"g5","type":"group","x":1480,"y":440,"width":680,"height":150,"color":"2","label":"⑤ WIRING — declare → wire → change"},
+		{"id":"g6","type":"group","x":720,"y":1120,"width":680,"height":150,"color":"1","label":"C# LANGUAGE RECAPS — Differences 1 & 5 of the C++ → C# bridge"},
+		{"id":"g1","type":"group","x":-240,"y":360,"width":340,"height":150,"color":"6","label":"① DESIGN — visual first, functionality second"},
+		{"id":"g3","type":"group","x":720,"y":440,"width":340,"height":150,"color":"3","label":"③ ABILITIES ATTACH"},
 		{"id":"n-scene","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Scene.md","x":380,"y":410,"width":260,"height":60},
 		{"id":"n-go","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/GameObject.md","x":380,"y":550,"width":260,"height":60},
-
-		{"id":"g3","type":"group","x":720,"y":440,"width":340,"height":150,"color":"3","label":"③ ABILITIES ATTACH"},
-		{"id":"n-comp","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Component.md","x":760,"y":490,"width":260,"height":60},
-
-		{"id":"g4","type":"group","x":1100,"y":10,"width":340,"height":1030,"color":"4","label":"④ CAPABILITIES — space · appearance · execution"},
 		{"id":"n-v3","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Vector3.md","x":1140,"y":60,"width":260,"height":60},
 		{"id":"n-transform","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Transform.md","x":1140,"y":170,"width":260,"height":60},
 		{"id":"n-camera","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Camera.md","x":1140,"y":330,"width":260,"height":60},
+		{"id":"n-comp","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Component.md","x":760,"y":490,"width":260,"height":60},
 		{"id":"n-sr","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/SpriteRenderer.md","x":1140,"y":470,"width":260,"height":60},
 		{"id":"n-ssf","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Sprite and Sprite Sheet.md","x":1140,"y":580,"width":260,"height":60},
 		{"id":"n-ao","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Asset Organization.md","x":1140,"y":690,"width":260,"height":60},
 		{"id":"n-mb","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/MonoBehaviour.md","x":1140,"y":830,"width":260,"height":60},
 		{"id":"n-lc","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Script Lifecycle.md","x":1140,"y":940,"width":260,"height":60},
-
-		{"id":"g5","type":"group","x":1480,"y":440,"width":680,"height":150,"color":"2","label":"⑤ WIRING — declare → wire → change"},
 		{"id":"n-ief","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Inspector-Exposed Field.md","x":1520,"y":490,"width":260,"height":60},
 		{"id":"n-rp","type":"file","file":"03-Knowledge-Graph/Concepts/Unity/Reference Pattern.md","x":1900,"y":490,"width":260,"height":60},
-
-		{"id":"n-next","type":"text","x":2260,"y":470,"width":310,"height":150,"color":"2","text":"**Next in the flow (L02+)**\nArrays · `Update()` · buttons & classes\n\n*Pending concepts stay note-less until a lesson teaches them — see `concept-registry.md`.*"},
-
-		{"id":"g6","type":"group","x":720,"y":1120,"width":680,"height":150,"color":"1","label":"C# LANGUAGE RECAPS — Differences 1 & 5 of the C++ → C# bridge"},
+		{"id":"n-next","type":"text","text":"**Next in the flow (L02+)**\nArrays · `Update()` · buttons & classes\n\n*Pending concepts stay note-less until a lesson teaches them — see `concept-registry.md`.*","x":2260,"y":470,"width":310,"height":150,"color":"2"},
 		{"id":"n-csc","type":"file","file":"03-Knowledge-Graph/Concepts/CSharp/CSharp-Vs-Cpp-Syntax.md","x":760,"y":1170,"width":260,"height":60},
-		{"id":"n-eg","type":"file","file":"03-Knowledge-Graph/Concepts/CSharp/Encapsulation and Getters.md","x":1140,"y":1170,"width":260,"height":60}
+		{"id":"n-eg","type":"file","file":"03-Knowledge-Graph/Concepts/CSharp/Encapsulation and Getters.md","x":1140,"y":1170,"width":260,"height":60},
+		{"id":"1a815233466bf063","x":1881,"y":358,"width":250,"height":60,"type":"text","text":""},
+		{"id":"n-vsd","type":"file","file":"03-Knowledge-Graph/Concepts/Game-Development/Visual-First System Design.md","x":-200,"y":388,"width":260,"height":11153}
 	],
-	"edges": [
-		{"id":"e1","fromNode":"n-vsd","toNode":"n-scene","fromSide":"right","toSide":"left","label":"prerequisite-for"},
-		{"id":"e2","fromNode":"n-vsd","toNode":"n-go","fromSide":"right","toSide":"left","label":"prerequisite-for"},
-		{"id":"e3","fromNode":"n-scene","toNode":"n-go","fromSide":"bottom","toSide":"top","label":"contains"},
-		{"id":"e4","fromNode":"n-go","toNode":"n-comp","fromSide":"right","toSide":"left","label":"hosts abilities as"},
-		{"id":"e5","fromNode":"n-go","toNode":"n-transform","fromSide":"right","toSide":"left","label":"has-default"},
-		{"id":"e6","fromNode":"n-comp","toNode":"n-transform","fromSide":"right","toSide":"left","label":"related-to"},
-		{"id":"e7","fromNode":"n-comp","toNode":"n-sr","fromSide":"right","toSide":"left","label":"related-to"},
-		{"id":"e8","fromNode":"n-comp","toNode":"n-mb","fromSide":"right","toSide":"left","label":"related-to"},
-		{"id":"e9","fromNode":"n-comp","toNode":"n-camera","fromSide":"right","toSide":"left","label":"related-to"},
-		{"id":"e10","fromNode":"n-transform","toNode":"n-v3","fromSide":"top","toSide":"bottom","label":"stored as"},
-		{"id":"e11","fromNode":"n-sr","toNode":"n-ssf","fromSide":"bottom","toSide":"top","label":"renders"},
-		{"id":"e12","fromNode":"n-ao","toNode":"n-ssf","fromSide":"top","toSide":"bottom","label":"organizes assets for"},
-		{"id":"e13","fromNode":"n-mb","toNode":"n-lc","fromSide":"bottom","toSide":"top","label":"enrolls in execution"},
-		{"id":"e14","fromNode":"n-mb","toNode":"n-ief","fromSide":"right","toSide":"left","label":"declares public fields"},
-		{"id":"e15","fromNode":"n-ief","toNode":"n-rp","fromSide":"right","toSide":"left","label":"provides the slot"},
-		{"id":"e16","fromNode":"n-rp","toNode":"n-next","fromSide":"right","toSide":"left","label":"one script → many objects"},
-		{"id":"e17","fromNode":"n-csc","toNode":"n-eg","fromSide":"right","toSide":"left","label":"prerequisite-for (Difference 5)"},
-		{"id":"e18","fromNode":"n-eg","toNode":"n-ief","fromSide":"top","toSide":"bottom","label":"public = the wireable keyword"}
+	"edges":[
+		{"id":"e1","fromNode":"n-vsd","fromSide":"right","toNode":"n-scene","toSide":"left","label":"prerequisite-for"},
+		{"id":"e2","fromNode":"n-vsd","fromSide":"right","toNode":"n-go","toSide":"left","label":"prerequisite-for"},
+		{"id":"e3","fromNode":"n-scene","fromSide":"bottom","toNode":"n-go","toSide":"top","label":"contains"},
+		{"id":"e4","fromNode":"n-go","fromSide":"right","toNode":"n-comp","toSide":"left","label":"hosts abilities as"},
+		{"id":"e5","fromNode":"n-go","fromSide":"right","toNode":"n-transform","toSide":"left","label":"has-default"},
+		{"id":"e6","fromNode":"n-comp","fromSide":"right","toNode":"n-transform","toSide":"left","label":"related-to"},
+		{"id":"e7","fromNode":"n-comp","fromSide":"right","toNode":"n-sr","toSide":"left","label":"related-to"},
+		{"id":"e8","fromNode":"n-comp","fromSide":"right","toNode":"n-mb","toSide":"left","label":"related-to"},
+		{"id":"e9","fromNode":"n-comp","fromSide":"right","toNode":"n-camera","toSide":"left","label":"related-to"},
+		{"id":"e10","fromNode":"n-transform","fromSide":"top","toNode":"n-v3","toSide":"bottom","label":"stored as"},
+		{"id":"e11","fromNode":"n-sr","fromSide":"bottom","toNode":"n-ssf","toSide":"top","label":"renders"},
+		{"id":"e12","fromNode":"n-ao","fromSide":"top","toNode":"n-ssf","toSide":"bottom","label":"organizes assets for"},
+		{"id":"e13","fromNode":"n-mb","fromSide":"bottom","toNode":"n-lc","toSide":"top","label":"enrolls in execution"},
+		{"id":"e14","fromNode":"n-mb","fromSide":"right","toNode":"n-ief","toSide":"left","label":"declares public fields"},
+		{"id":"e15","fromNode":"n-ief","fromSide":"right","toNode":"n-rp","toSide":"left","label":"provides the slot"},
+		{"id":"e16","fromNode":"n-rp","fromSide":"right","toNode":"n-next","toSide":"left","label":"one script → many objects"},
+		{"id":"e17","fromNode":"n-csc","fromSide":"right","toNode":"n-eg","toSide":"left","label":"prerequisite-for (Difference 5)"},
+		{"id":"e18","fromNode":"n-eg","fromSide":"top","toNode":"n-ief","toSide":"bottom","label":"public = the wireable keyword"}
 	]
 }
