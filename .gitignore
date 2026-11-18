@@ -6,3 +6,6 @@ Desktop.ini
 # Obsidian workspace state (vault settings themselves are tracked)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Stray secondary vault config accidentally created inside the concepts tree
+03-Knowledge-Graph/Concepts/.obsidian/
