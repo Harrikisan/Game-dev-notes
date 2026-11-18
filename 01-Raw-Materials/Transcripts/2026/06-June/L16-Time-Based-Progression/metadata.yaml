@@ -1,0 +1,54 @@
+lesson_id: L16
+lesson_title: Time based progression
+class_date: 2026-06-03
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:23:27 (5007 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1198120136) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11544309 (section/class_id 531714, course 211072). LMS video name
+  "Time based progression(03-Jun-2026-7:30 PM-9:30 PM)". Recording is shorter than
+  the scheduled window (1:23:27 vs 2 h). Captions: 00:04:33-01:23:20 of 1:23:27
+  (99.9% coverage). 1,138 cues; 82,114 bytes; sha256
+  65CE186EADC49A32EDF7EBB8AEC781254CE6A49FEE37EAFEBA93CC0E41E8B6E3.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Growth stage definitions per duration"
+  - "Ticks and TimeSpan time tracking"
+  - "Elapsed time since game start"
+  - "Growth index and stage switching"
+  - "Harvest readiness checks"
+  - "Key-value persistence (PlayerPrefs)"
+  - "JSON serialization of PlayerData"
+  - "Saving/loading between sessions"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:06:44"
+    quote: >-
+      I will define the growth stage,
+    why: >-
+      Stage metadata per plant defined in code
+  - ts: "00:14:13"
+    quote: >-
+      So that is considered one tick. From that,
+    why: >-
+      Tick-based time measurement
+  - ts: "00:51:48"
+    quote: >-
+      pairs, a key, value, key, value, key, value.
+    why: >-
+      Key-value persistence (PlayerPrefs-style) discussed
+  - ts: "01:04:28"
+    quote: >-
+      value can be also a JSON. You can see this is a JSON.
+    why: >-
+      JSON serialization for save data

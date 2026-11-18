@@ -1,0 +1,53 @@
+lesson_id: L23
+lesson_title: "Overview of Delegate, action, Event & abstract Classes"
+class_date: 2026-06-15
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:23:15 (4995 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1201489246) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11592846 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:23:15 vs 2 h). Captions: 00:00:08-01:23:13
+  of 1:23:15 (99.9% coverage). 1,286 cues; 96,549 bytes; sha256
+  3FD6A73FC6748DD7CC569D6C8C0CECFFB85AAD74A1B452E6F82B47AA225F1B9F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "delegates and events recap in the fruit catcher"
+  - "abstract classes and overriding methods (weapon/gun example)"
+  - "enums vs string comparison for fruit types"
+  - "passing parameters (fruit type, counts) to UI manager"
+  - "sprite import modes (single/multiple)"
+  - "UI layout groups (grid, child size, spacing)"
+  - "health/hearts UI updates with arrays and loops"
+  - "bomb prefab and damage logic"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:16:07.272"
+    quote: >-
+      take an example of gun. Gun will shoot.
+    why: >-
+      Abstract-class teaching via gun/weapon example.
+  - ts: "00:22:57.412"
+    quote: >-
+      comparing with strings and all, we can go with enum.
+    why: >-
+      Enum use over string comparison Ã¢â‚¬â€ C# implementation detail.
+  - ts: "01:04:32.454"
+    quote: >-
+      Whenever you're working with UI, these layout groups are very
+    why: >-
+      UI layout-group implementation for health display.
+  - ts: "01:22:49.562"
+    quote: >-
+      everyone, try to implement this game so that if you get
+    why: >-
+      Explicit implement-at-home assignment.

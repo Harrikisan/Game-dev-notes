@@ -1,0 +1,52 @@
+lesson_id: L59
+lesson_title: Implementing blendtree and 3D character movement with character controller
+class_date: 2026-08-13
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:13:54 (4434 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1218050842) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11764311 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:13:54 vs 2 h). Captions: 00:00:13-01:13:47
+  of 1:13:54 (99.9% coverage). 789 cues; 67,494 bytes; sha256
+  A69398AFE47A7F43A8E0BD00E23087C15669D23D5357F7E25046C2A8D037C79C.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "1D blend tree blending idle/walk/run on one parameter"
+  - "blend tree vs multiple animation states"
+  - "trigger-based slide and jump states"
+  - "Character Controller vs rigidbody (no physics)"
+  - "CharacterController.Move and manual gravity"
+  - "grounded checks and jump force"
+  - "endless runner environment reuse"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:20.880"
+    quote: >-
+      can do one thing. We can go with the blend trees.
+    why: >-
+      Introduces blend trees as the lesson core
+  - ts: "00:40:35.943"
+    quote: >-
+      So what it does is, it is not related to physics related calculations.
+    why: >-
+      Character Controller vs rigidbody distinction
+  - ts: "00:54:44.379"
+    quote: >-
+      gravity is not working on this character controller.
+    why: >-
+      Manual gravity implementation need
+  - ts: "01:12:41.442"
+    quote: >-
+      No, ma'am. Okay. Then try to implement character controller
+    why: >-
+      Assigned implementation task

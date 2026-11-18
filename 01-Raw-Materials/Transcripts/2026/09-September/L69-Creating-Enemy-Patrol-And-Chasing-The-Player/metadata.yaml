@@ -1,0 +1,53 @@
+lesson_id: L69
+lesson_title: creating enemy patrol and chasing the player
+class_date: 2026-09-02
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:45 (4905 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1223402140) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11808959 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:21:45 vs 2 h). Captions: 00:00:06-01:21:38 of 1:21:45 (99.9% coverage). 796
+  cues; 60,442 bytes; sha256
+  3A64F4D95BE9E8D477BBC74702D67988782DBE5E379FE1E40F225C36F9B0CFB9.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Fixing student character issues: apply root motion, idle/walk animation states"
+  - "Enemy state machine with enum (enemy State.patrol/chase) usable across scripts"
+  - "Chasing distance check and field-of-view angle (e.g., 45 degrees) for spotting the player"
+  - "NavMesh surface/agent rotation, patrol targets A/B and agent.isStopped"
+  - "Third-person Cinemachine follow camera with mouse look (mouse X rotates player, pitch clamp, Quaternion.Euler)"
+  - "Crosshair placement via Screen center coordinates"
+  - "Physics.Raycast with layer mask, range and hit info for shooting; fire rate timer"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:20:02"
+    quote: >-
+      use this enum anywhere in the game, anywhere from other scripts also.
+    why: >-
+      Enum-based enemy state machine
+  - ts: "00:31:29"
+    quote: >-
+      ChasingDistance,
+    why: >-
+      Chase distance detection variable
+  - ts: "00:38:51"
+    quote: >-
+      So I'm creating a third person camera to follow the player.
+    why: >-
+      Third-person camera setup
+  - ts: "01:21:10"
+    quote: >-
+      So what we have to do, we have to give some fire rate.
+    why: >-
+      Fire rate limiting for shooting

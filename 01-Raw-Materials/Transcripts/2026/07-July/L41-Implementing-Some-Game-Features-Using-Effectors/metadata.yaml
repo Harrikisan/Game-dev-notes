@@ -1,0 +1,53 @@
+lesson_id: L41
+lesson_title: implementing some game features using effectors
+class_date: 2026-07-16
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:42 (4902 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1210554506) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11692670 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:21:42 vs 2 h). Captions: 00:00:14-01:21:39 of 1:21:42 (99.9% coverage).
+  1,074 cues; 77,463 bytes; sha256
+  E17ABBB83B9893FF44998A06A69F5E7979CC612CFA463DF1806D8505C939635E.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "2D effectors recap"
+  - "enemy patrol movement between points"
+  - "Rigidbody2D velocity-based movement"
+  - "raycasting for ledge/ground detection"
+  - "character sprite flipping (flipX)"
+  - "result page UI with buttons"
+  - "background audio on game over"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:25.860"
+    quote: >-
+      enemy movement. So proper enemy movement, how to do the proper.
+    why: >-
+      Lesson goal: proper enemy movement implementation.
+  - ts: "00:18:25.806"
+    quote: >-
+      if you cast the ray from exact center, what
+    why: >-
+      Raycast origin tuning for edge detection.
+  - ts: "01:20:58.834"
+    quote: >-
+      Try to implement the enemy character movement. Okay?
+    why: >-
+      Explicit student assignment.
+  - ts: "01:21:22.014"
+    quote: >-
+      platformer games with NPCs. How to do with NPCs.
+    why: >-
+      Applied to 2D platformer NPCs.

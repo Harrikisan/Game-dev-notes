@@ -1,0 +1,51 @@
+lesson_id: L31
+lesson_title: "Implementation of camera follow , and parallax background effect for 2D game"
+class_date: 2026-06-30
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:12:31 (4351 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1205859161) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11646079 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:12:31 vs 2 h). Captions: 00:00:04-01:12:27
+  of 1:12:31 (99.9% coverage). 1,063 cues; 81,205 bytes; sha256
+  2C6BB20B8C74FC5B512C8C08A61AC3D77025C8EAC6AF7D0F783EFC6C5C4EB0B2.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Camera follow script with LateUpdate"
+  - "Vector3.Lerp camera smoothing"
+  - "Parallax background via material texture offset"
+  - "Quad mesh renderer and URP material setup"
+  - "Canvas screen space overlay for 2D UI"
+  - "Character animator trigger parameter debugging"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:07:04.644"
+    quote: >-
+      See inside that, I'm creating one camera follow
+    why: >-
+      Instructor starts building the camera follow script.
+  - ts: "00:09:11.124"
+    quote: >-
+      update, I want to move my camera. That's why I'm using late update.
+    why: >-
+      Explains LateUpdate choice for camera movement.
+  - ts: "00:45:29.966"
+    quote: >-
+      Material.mainTextureOffset.
+    why: >-
+      Background moved by coding material texture offset.
+  - ts: "00:55:19.104"
+    quote: >-
+      We are creating some fake effect here. That is what parallax effect.
+    why: >-
+      Names the parallax technique being implemented.

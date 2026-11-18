@@ -1,0 +1,54 @@
+lesson_id: L77
+lesson_title: Graphic programming
+class_date: 2026-09-16
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:29:53 (5393 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1227419685) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11839092 (section/class_id 531714, course 211072). First Graphic
+  programming session (Aswin Raj). Recording is shorter than the scheduled window
+  (1:29:53 vs 2 h). Captions: 00:00:21-01:29:51 of 1:29:53 (99.9% coverage).
+  1,206 cues; 98,469 bytes; sha256
+  C38DEF8B6B2533883FA0B2E7C69EBC375926608FE0DAE70BD2C1F6C9141FA23D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "C++ as the course language and required C++ basics"
+  - "Vector vs raster displays and computer graphics history (Sketchpad, Utah teapot, Phong)"
+  - "Frame buffer and dedicated graphics memory"
+  - "GPU evolution (NVIDIA, fixed-function era)"
+  - "Fixed pipeline vs programmable pipeline (shader revolution)"
+  - "Shaders: writing data to GPU, shader programs (no C code on GPU)"
+  - "CUDA and GPGPU parallel processing"
+  - "Ray tracing, NVIDIA RTX and AI-assisted rendering"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:09:16.908"
+    quote: >-
+      we are going to use C++ programming language
+    why: >-
+      Course toolchain: C++ for OpenGL
+  - ts: "00:35:15.438"
+    quote: >-
+      So does the frame buffer hold color values for all the pixels inside the
+    why: >-
+      Frame buffer fundamentals discussed
+  - ts: "00:54:46.560"
+    quote: >-
+      What is programmable revolution?
+    why: >-
+      Fixed vs programmable pipeline history taught
+  - ts: "01:08:16.626"
+    quote: >-
+      It allowed GPU to use its power, the parallel
+    why: >-
+      CUDA/parallel GPU processing discussion

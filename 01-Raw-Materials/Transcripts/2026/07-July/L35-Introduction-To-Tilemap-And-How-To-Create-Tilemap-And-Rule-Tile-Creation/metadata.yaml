@@ -1,0 +1,51 @@
+lesson_id: L35
+lesson_title: Introduction to tilemap and how to create tilemap and rule tile creation
+class_date: 2026-07-06
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:17:31 (4651 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1207432463) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11672511 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:17:31 vs 2 h). Captions: 00:00:07-01:17:27
+  of 1:17:31 (99.9% coverage). 925 cues; 68,881 bytes; sha256
+  D0A634821B6DF79695B28EE3C4DFF6C22D2C538D084356C8CC77B59A153E754D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "What a tilemap is and where it is useful"
+  - "Tilemap types (rectangular, hexagonal) and grid cell size"
+  - "Creating a tile palette and painting/erasing tiles"
+  - "Tilemap Collider 2D with composite collider merging"
+  - "Rule tile creation with neighbor rules"
+  - "Multiple tilemap layers and animated tiles"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:03:46.880"
+    quote: >-
+      So, what is tile map is? Tile map is used for--
+    why: >-
+      Introduces tilemap concept and uses.
+  - ts: "00:29:55.900"
+    quote: >-
+      2D. From tiles, we have to create rule tile.
+    why: >-
+      Moves to rule tile creation from sliced tiles.
+  - ts: "00:36:09.244"
+    quote: >-
+      tile. This is your rule for this tile.
+    why: >-
+      Teaches neighbor-based rule tile rules.
+  - ts: "01:16:48.846"
+    quote: >-
+      Okay? Tanvi and Kaushik, try to use the rule tile as well, okay?
+    why: >-
+      Assigned after-class practice task.

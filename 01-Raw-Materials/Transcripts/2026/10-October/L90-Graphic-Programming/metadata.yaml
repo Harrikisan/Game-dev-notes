@@ -1,0 +1,52 @@
+lesson_id: L90
+lesson_title: Graphic programming
+class_date: 2026-10-16
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:13:55 (4435 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1236602963) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11933344 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:13:55 vs 2 h). Captions: 00:00:01-01:13:50
+  of 1:13:55 (99.9% coverage). 918 cues; 70,048 bytes; sha256
+  48B7B1674B14126D16403053CB311B699B1E130BCF4441DF9F604E65B33A9F65.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "lighting and the Phong model (unit three)"
+  - "ambient, diffuse and specular components"
+  - "surface normals and their visualization"
+  - "directional, point and spot lights"
+  - "attenuation"
+  - "Gouraud vs Phong shading (per-fragment lighting)"
+  - "normal matrix for transformed normals"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:54.150"
+    quote: >-
+      It's lighting and Phong model.
+    why: >-
+      Unit three topic announced
+  - ts: "00:11:44.706"
+    quote: >-
+      difference between the Phong shading and there is something called Gouraud shading.
+    why: >-
+      Shading model comparison
+  - ts: "00:45:38.076"
+    quote: >-
+      What is attenuation? The light grows weaker with distance.
+    why: >-
+      Phong term attenuation taught
+  - ts: "01:08:09.042"
+    quote: >-
+      For Phong shading, lighting is computed per fragment.
+    why: >-
+      Per-fragment lighting explanation

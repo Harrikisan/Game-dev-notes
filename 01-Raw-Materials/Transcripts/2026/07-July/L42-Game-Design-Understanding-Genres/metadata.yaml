@@ -1,0 +1,54 @@
+lesson_id: L42
+lesson_title: Game Design - Understanding Genres
+class_date: 2026-07-17
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:21:03 (4863 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1210843532) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11683550 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window 7:30-9:00 PM IST, recording runs 21 min past it
+  (1:21:03). Captions: 00:03:06-01:21:01 of 1:21:03 (99.9% coverage). 912 cues;
+  72,828 bytes; sha256
+  B492416C3F344B3E29DA9126B8561B682B55D7271E267DFC3FEE143E00A09AD8.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "pre-production and forming a game concept"
+  - "theme and genre selection"
+  - "player objectives (static vs dynamic)"
+  - "gameplay actions and win/lose scenarios"
+  - "concept document template walkthrough"
+  - "game design document (GDD)"
+  - "core loop"
+  - "wireframes as UI sketches"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:03:51.980"
+    quote: >-
+      So today, we are going to start with the pre-production
+    why: >-
+      Lesson scope: pre-production process.
+  - ts: "00:04:12.560"
+    quote: >-
+      what is the theme of the game that you want to make. Right?
+    why: >-
+      Theme/genre as first concept decision.
+  - ts: "00:16:39.252"
+    quote: >-
+      So after that, the next step will be making the game design document.
+    why: >-
+      GDD as next pipeline step.
+  - ts: "01:20:42.934"
+    quote: >-
+      Please copy-paste these points. Please be ready with them from the next class.
+    why: >-
+      Homework: prepare concept points.

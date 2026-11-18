@@ -1,0 +1,54 @@
+lesson_id: L27
+lesson_title: "more about main menu ui creation, Level selection UI"
+class_date: 2026-06-22
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:02 (4862 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1203533289) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11627558 (section/class_id 531714, course 211072). LMS lesson title
+  is lowercase as entered ("more about main menu ui creation, Level selection UI").
+  Recording is shorter than the scheduled window (1:21:02 vs 2 h). Captions:
+  00:00:05-01:20:58 of 1:21:02 (99.9% coverage). 1,136 cues; 83,637 bytes; sha256
+  4F920F43CA0161E3DBFD8CDE373957AE3A66393E3E319604732679B88EEA501E.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "dropdown UI setup and options"
+  - "adding button listeners in code (onClick AddListener)"
+  - "menu/settings/store controller organization"
+  - "level selection panel with dynamically generated level buttons"
+  - "GetComponent/GetChild hierarchy access for labels"
+  - "button interactable=false for locked levels"
+  - "PlayerPrefs SetInt/GetInt (high score, unlocked levels)"
+  - "enabling level buttons based on unlocked-level count"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:35.260"
+    quote: >-
+      So today, I'm explaining about the drop-down.
+    why: >-
+      Remaining UI component Ã¢â‚¬â€ dropdown Ã¢â‚¬â€ covered first.
+  - ts: "00:40:44.302"
+    quote: >-
+      In the buttons, if interactable true, then only you can click the button.
+    why: >-
+      Interactable used to lock level buttons Ã¢â‚¬â€ implementation mechanic.
+  - ts: "00:49:48.738"
+    quote: >-
+      Whenever I come back again, the second session should be unlocked
+    why: >-
+      Unlock persistence discussed as storage/implementation, not design rationale.
+  - ts: "01:19:53.154"
+    quote: >-
+      Using player preferences, unlock your levels.
+    why: >-
+      PlayerPrefs as the unlock-storage mechanism.

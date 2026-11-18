@@ -1,0 +1,53 @@
+lesson_id: L45
+lesson_title: Implementing top down player movement and introduce joystick controls
+class_date: 2026-07-22
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:16 (4876 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1212069623) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11708592 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:21:16 vs 2 h). Captions: 00:00:15-01:21:12
+  of 1:21:16 (99.9% coverage). 1,039 cues; 73,506 bytes; sha256
+  705B80764E0D6F6FFDCA600647EAEAD7F4C9A9C38BD1BDAF8DD3EE39A2FB4255.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "tilemap environment with tile palette"
+  - "top-down player movement from input"
+  - "player rotation from mouse position"
+  - "vector direction and magnitude math"
+  - "Mathf.Atan2 angle to Z-axis rotation"
+  - "bullet spawn in forward direction"
+  - "joystick input package (horizontal/vertical)"
+  - "editor vs mobile input handling"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:11.820"
+    quote: >-
+      Create new tile map, tile palette.
+    why: >-
+      Tilemap environment building.
+  - ts: "00:25:12.428"
+    quote: >-
+      Rotation will be from mouse and movement is from input. Okay?
+    why: >-
+      Control scheme: mouse rotation, input movement.
+  - ts: "00:38:18.404"
+    quote: >-
+      atan. From tan, tan squared, tan, so cosine,
+    why: >-
+      Trig math for angle calculation.
+  - ts: "01:01:14.636"
+    quote: >-
+      In this, you will be having the values of horizontal, vertical, everything
+    why: >-
+      Joystick provides axis values.

@@ -1,0 +1,54 @@
+lesson_id: L79
+lesson_title: Graphic programming
+class_date: 2026-09-22
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:46:29 (6389 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1229237562) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860657 (section/class_id 531714, course 211072). Recording runs
+  16 min past the scheduled window (1:46:29 vs 2 h). Longest transcript so far.
+  Captions start at the very beginning (00:00:00) and run to 01:46:26 of 1:46:29
+  (99.9% coverage). 1,941 cues; 134,437 bytes; sha256
+  1B4F86CE0C5F30477C3DCB4EBEF025844BFD0319B29BCD73170463A86D59928F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "Graphics APIs and drivers (DirectX, OpenGL, Vulkan)"
+  - "Why OpenGL: cross-platform (Windows, Linux, mobile)"
+  - "GPU drivers and hardware installation"
+  - "Graphics/rendering pipeline stages overview"
+  - "Application/CPU-side data and vertex shader output"
+  - "Primitive assembly and clipping stage"
+  - "Rasterization, interpolation/smoothing, texturing, depth (Z) value"
+  - "GLSL and shader stages of the rendering pipeline"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:12:36.824"
+    quote: >-
+      We are going to write program in C++.
+    why: >-
+      Course implementation language confirmed
+  - ts: "00:23:00.740"
+    quote: >-
+      That is why we have chosen OpenGL. When it comes to
+    why: >-
+      Rationale for OpenGL over DirectX/Vulkan
+  - ts: "01:02:48.888"
+    quote: >-
+      the assembly and clipping stage. Here, assembly and clipping
+    why: >-
+      Pipeline stage teaching (no code today)
+  - ts: "01:27:20.852"
+    quote: >-
+      assembly and clipping, and then rasterization happened.
+    why: >-
+      Pipeline recap: assembly, clipping, rasterization

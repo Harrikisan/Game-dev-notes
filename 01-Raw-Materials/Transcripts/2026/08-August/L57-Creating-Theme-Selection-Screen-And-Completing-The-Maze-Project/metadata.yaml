@@ -1,0 +1,53 @@
+lesson_id: L57
+lesson_title: creating theme selection screen and completing the maze project
+class_date: 2026-08-11
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:22:23 (4943 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1217375317) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11764308 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:22:23 vs 2 h). Captions: 00:00:12-01:22:21 of 1:22:23 (99.9% coverage). 865
+  cues; 71,532 bytes; sha256
+  EA248A7F45871E1D901F964DDD953FEC547B889E467A6DF3E519D9723F2F2554.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "imported asset scale factor and transform adjustment"
+  - "collider plus rigidbody collision requirements"
+  - "light baking recap with mixed mode and static environment"
+  - "theme selection UI with horizontal layout and TextMeshPro"
+  - "button events and ThemeSelectionManager (DayTheme/NightTheme enum)"
+  - "PlayerPrefs saving and loading"
+  - "delayed results screen with coin count"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:07:31.995"
+    quote: >-
+      If two objects is colliding, at least one object should have rigidbody, and two
+    why: >-
+      Collider/rigidbody collision rules
+  - ts: "00:55:49.062"
+    quote: >-
+      DayTheme and NightTheme. So here, theme type is day and night.
+    why: >-
+      Enum-based theme type implementation
+  - ts: "01:00:15.342"
+    quote: >-
+      No need of using this one, PlayerPreferences.save.
+    why: >-
+      PlayerPrefs persistence of selected theme
+  - ts: "01:21:46.809"
+    quote: >-
+      0.5 seconds, this results screen is shown, and it is showing the coins earned
+    why: >-
+      Delayed results screen completion of maze project

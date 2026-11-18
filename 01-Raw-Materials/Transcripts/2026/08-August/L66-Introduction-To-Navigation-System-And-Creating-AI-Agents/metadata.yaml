@@ -1,0 +1,53 @@
+lesson_id: L66
+lesson_title: Introduction to navigation system and creating AI agents
+class_date: 2026-08-25
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:23:12 (4992 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1221218984) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11786891 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:23:12 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:23:11 of 1:23:12 (99.9% coverage). 1,118
+  cues; 82,902 bytes; sha256
+  C5059726B5C1509DFE48F2C295BF6FCB0E4CB601B52C61C3EC7ED659C50A0939.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Project wrap-up: skybox via lighting settings, HUD gem count, coin sound effect"
+  - "Particle effects on diamonds and at game end/result screen"
+  - "NavMesh Surface: walkable/non-walkable areas and baking"
+  - "NavMesh Obstacle component and agent settings (agent types, speed, avoid priority)"
+  - "UnityEngine.AI scripting to set agent target/destination"
+  - "Patrolling between points A/B by switching targets using remaining distance"
+  - "NavMesh Link, link width and re-baking with NavMesh modifiers"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:12:48"
+    quote: >-
+      In NavMesh Surface, you have walkable area, non-walkable area,
+    why: >-
+      NavMesh walkable area baking
+  - ts: "00:31:13"
+    quote: >-
+      UnityEngine.AI
+    why: >-
+      AI namespace for agent scripting
+  - ts: "00:46:06"
+    quote: >-
+      add NavMesh Link. Here, NavMesh Link is there.
+    why: >-
+      Off-mesh NavMesh Link setup
+  - ts: "01:22:59"
+    quote: >-
+      Try to do this NavMesh agent and all, and
+    why: >-
+      Explicit practice assignment

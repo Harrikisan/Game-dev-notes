@@ -1,0 +1,52 @@
+lesson_id: L87
+lesson_title: Graphic programming
+class_date: 2026-10-13
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:12 (4872 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1235485528) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11839089 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:21:12 vs 2 h). Captions: 00:00:08-01:21:09
+  of 1:21:12 (99.9% coverage). 1,038 cues; 78,518 bytes; sha256
+  B1BA4888113365D9EBA228B52087F8E4D7EF8E10449ABABD155E11F2CB2C6B18.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "virtual camera and view matrix"
+  - "GLM LookAt with front/up/right vectors"
+  - "yaw and pitch camera angles"
+  - "mouse delta accumulation and pitch clamping"
+  - "orthographic vs perspective projection"
+  - "viewing volume (box vs frustum)"
+  - "model-view-projection (MVP) matrices"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:16:03.810"
+    quote: >-
+      replacing our eye with camera's eye. Virtual eye is camera.
+    why: >-
+      Camera-as-virtual-eye concept
+  - ts: "00:43:10.860"
+    quote: >-
+      So these two angles, yaw and pitch, together can point the camera
+    why: >-
+      Yaw/pitch camera control teaching
+  - ts: "01:10:13.590"
+    quote: >-
+      Here, look at the code for the perspective camera.
+    why: >-
+      Live walkthrough of perspective camera code
+  - ts: "01:20:55.098"
+    quote: >-
+      Take a look. Try to practice something. Try to understand.
+    why: >-
+      Practice request with shared materials

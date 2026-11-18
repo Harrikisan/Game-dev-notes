@@ -1,0 +1,52 @@
+lesson_id: L75
+lesson_title: Game Design - Introduction to unreal blueprints
+class_date: 2026-09-13
+start_time: 19:45 IST (LMS start_time 1185 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:15:51 (4551 s, LMS recording length)
+instructor: Bhargava Ram Prasad
+source_type: LMS Edmingle class-records recording (Vimeo 1226378241) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11809204 (section/class_id 531714, course 211072). First Unreal
+  Blueprints session (Bhargava Ram Prasad). Scheduled window 7:45-9:00 PM IST,
+  recording runs 15:51 past it (1:15:51). Captions: 00:00:44-01:15:47 of 1:15:51
+  (99.9% coverage). 1,046 cues; 67,272 bytes; sha256
+  49CFF6721E235792448FBACB09AEC2BC73DECA40E84C552AD12A29B86A8BE45E.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: ["GAME_DESIGN"]
+subject: "Unreal Blueprints"
+topics:
+  - "Unreal Engine uses beyond games and games built with Unreal"
+  - "Engine feature comparison: real-time vs baked lighting, physics, UMG, animation (Unity vs Unreal)"
+  - "Blueprint lifecycle events mapped from Unity (BeginPlay/Tick/EndPlay vs Start/Update/OnDestroy)"
+  - "Blueprint events: Begin Overlap, collision detection, Open Level Blueprint"
+  - "Transform control (move/rotate) via Blueprints"
+  - "Unreal project creation: first-person and vehicle templates, folder structure"
+classification_confidence: MEDIUM
+classification_evidence:
+  - ts: "00:27:35.176"
+    quote: >-
+      Okay. But try to come up with the five games.
+    why: >-
+      Students tasked to name games made in Unreal (engine/game analysis)
+  - ts: "00:37:04.030"
+    quote: >-
+      So what is the difference between real-time and baked light
+    why: >-
+      Engine rendering concepts compared
+  - ts: "00:52:38.790"
+    quote: >-
+      whatever method you want to use. So if I say Begin Play.
+    why: >-
+      Blueprint lifecycle events taught (tool-side teaching dominates)
+  - ts: "01:10:06.790"
+    quote: >-
+      first-person controller, you can click first-person controller over
+    why: >-
+      Unreal project template walkthrough

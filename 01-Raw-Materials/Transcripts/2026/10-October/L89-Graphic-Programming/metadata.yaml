@@ -1,0 +1,52 @@
+lesson_id: L89
+lesson_title: Graphic programming
+class_date: 2026-10-15
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:24:33 (5073 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1236275288) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860665 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:24:33 vs 2 h). Captions: 00:00:01-01:24:28
+  of 1:24:33 (99.9% coverage). 1,040 cues; 81,167 bytes; sha256
+  D6C0B44ED5B56DEAACDA5BD8ABC08873E8A0E8FCD3C453950CE360DE4B467A29.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "anisotropic filtering"
+  - "texture compression and GPU decoding"
+  - "texture atlases (one big texture per object)"
+  - "texture units and multi-texturing"
+  - "normal maps and specular maps"
+  - "procedural sphere generation (latitude/longitude to vertices)"
+  - "index buffers reusing vertices"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:18:56.868"
+    quote: >-
+      All right. So we'll talk about anisotropic filtering now.
+    why: >-
+      Anisotropic filtering topic introduced
+  - ts: "00:52:46.920"
+    quote: >-
+      Have you come across these terms? Normal maps, specular maps,
+    why: >-
+      Multi-texturing map types taught
+  - ts: "01:02:19.932"
+    quote: >-
+      Latitude is from the North Pole over the equator to the South Pole,
+    why: >-
+      Sphere generation math explained
+  - ts: "01:24:05.209"
+    quote: >-
+      Okay. Try to practice this, whatever we covered all these days, at least this
+    why: >-
+      Explicit practice assignment

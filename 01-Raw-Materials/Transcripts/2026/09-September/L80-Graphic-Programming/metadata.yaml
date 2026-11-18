@@ -1,0 +1,54 @@
+lesson_id: L80
+lesson_title: Graphic programming
+class_date: 2026-09-23
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:22:05 (4925 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1229604082) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860659 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:22:05 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:22:01 of 1:22:05 (99.9% coverage). 1,334
+  cues; 92,625 bytes; sha256
+  95D0962ABE699A634E503E5E298F1060F2A59CD25B87C032F18C33E708347D45.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "GPU architecture: cores arranged in a grid, registers, VRAM"
+  - "CPU-issued commands, command buffer, and draw calls"
+  - "Draw call batching and its cost trade-offs"
+  - "Threads and single-instruction-multiple-thread execution"
+  - "Immediate mode vs tile-based deferred rendering (mobile GPUs)"
+  - "On-chip memory, bandwidth, fetch, transaction elimination"
+  - "Overdraw and depth test/depth buffer comparisons"
+  - "Graphics debugging: launching an executable, frame capture, fragment shader/frame buffer inspection"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:43.780"
+    quote: >-
+      How is a GPU actually built,
+    why: >-
+      Session's central question: GPU internals
+  - ts: "00:18:25.868"
+    quote: >-
+      make thousands and thousands of tiny draw calls, the
+    why: >-
+      Draw call batching discussion
+  - ts: "00:45:35.868"
+    quote: >-
+      So what is this? What is this tile-based deferred rendering?
+    why: >-
+      TBDR vs immediate mode rendering modes
+  - ts: "01:14:46.500"
+    quote: >-
+      Launch application executable path.
+    why: >-
+      Live graphics debugging tool demo

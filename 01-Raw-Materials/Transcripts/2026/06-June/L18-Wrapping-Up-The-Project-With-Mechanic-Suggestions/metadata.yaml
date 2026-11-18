@@ -1,0 +1,53 @@
+lesson_id: L18
+lesson_title: Wrapping up the project with mechanic suggestions
+class_date: 2026-06-05
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:12:27 (4347 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1198810119) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11551933 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:12:27 vs 2 h). Captions: 00:02:38-01:12:24
+  of 1:12:27 (99.9% coverage). 1,057 cues; 79,456 bytes; sha256
+  BD13FBFDFA95DB4D984353626EE23EA1EBBC6A483BE3418E34420BE58D6123D2.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: ["GAME_DESIGN"]
+subject: "C# Programming"
+topics:
+  - "Harvest accumulation over time"
+  - "Harvest amount reset on click"
+  - "Selling fruits for currency"
+  - "Inventory manager and item ownership"
+  - "Crafting recipes (orange juice)"
+  - "Inventory UI indicators with TextMeshPro"
+  - "Raycast target click blocking"
+  - "Project showcase next week"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:40"
+    quote: >-
+      Now, today I should have more fruits. Tomorrow I should have even more fruits.
+    why: >-
+      Accumulating-harvest mechanic rationale (design reasoning)
+  - ts: "00:23:12"
+    quote: >-
+      How can I sell them to have more money? All these things we have to do, right?
+    why: >-
+      Economy/selling mechanic suggestion
+  - ts: "00:25:53"
+    quote: >-
+      you need two apples, to make that. For making orange juice,
+    why: >-
+      Crafting recipe mechanic discussion
+  - ts: "01:11:50"
+    quote: >-
+      Okay? It's your wish. You can explore on your own and try to
+    why: >-
+      Open-ended extension and showcase assigned

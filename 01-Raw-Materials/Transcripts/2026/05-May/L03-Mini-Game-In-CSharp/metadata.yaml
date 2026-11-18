@@ -1,0 +1,53 @@
+lesson_id: L03
+lesson_title: Mini Game in C#
+class_date: 2026-05-11
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:32:21 (5541 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1191229763) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11450056 (section/class_id 531714, course 211072). LMS video name
+  "Mini Game in C(11-May-2026-7:30 PM-9:30 PM)" (# stripped by the LMS). Captions:
+  00:02:50-01:32:18 of 1:32:21 (99.9% coverage). 1,416 cues; 104,050 bytes; sha256
+  15D2608EBBAB217E0D2AD3EC43508804AE9A566322F31ADA8D7DF39328B09614.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Model-View-Controller (MVC) architecture for games"
+  - "model classes holding pure C# logic vs MonoBehaviour view"
+  - "GameController orchestration"
+  - "transform.Translate movement"
+  - "Time.deltaTime and frame-rate independence"
+  - "SerializeField vs public exposure"
+  - "Debug.Log for verification"
+  - "enemy wave system decomposition"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:15.220"
+    quote: >-
+      build an enemy wave system.
+    why: >-
+      Feature decomposition motivating the mini game
+  - ts: "00:48:48.450"
+    quote: >-
+      time.deltaTime into the speed. That amount I'll again
+    why: >-
+      Frame-rate independent movement implementation
+  - ts: "01:31:36.328"
+    quote: >-
+      MVP, model, view, controller.
+    why: >-
+      Explicit architecture pattern taught
+  - ts: "01:31:50.948"
+    quote: >-
+      Pure C# will be in model.
+    why: >-
+      Code architecture rule students must follow

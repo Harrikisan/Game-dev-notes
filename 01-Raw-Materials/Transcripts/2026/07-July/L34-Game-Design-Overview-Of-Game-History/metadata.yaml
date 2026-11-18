@@ -1,0 +1,53 @@
+lesson_id: L34
+lesson_title: Game Design-Overview of Game History
+class_date: 2026-07-03
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:14:24 (4464 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1206810343) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11613462 (section/class_id 531714, course 211072). First Game
+  Design session (subject 91431267); scheduled window 7:30-9:00 PM IST, recording
+  runs 24 min past it (1:14:24). Captions: 00:01:37-01:14:21 of 1:14:24 (99.9%
+  coverage). 1,249 cues; 95,083 bytes on disk (one non-ASCII char; in-page char
+  count 95,082); sha256
+  62E4EC7316098EDBAAE9725DE96B12D3BC043AD2FDEA60CDDBA66F7F7893F415.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "Role and responsibilities of a game designer"
+  - "Game production process and team roles"
+  - "Wireframes in the design workflow"
+  - "System design vs environment design"
+  - "Balancing and player gameplay experience"
+  - "Game genres (FPS, platformers) and influential games in history"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:14:45.418"
+    quote: >-
+      designer does. We're going to discuss about the production process,
+    why: >-
+      Design-track lesson covering designer role and production.
+  - ts: "00:32:19.720"
+    quote: >-
+      Balancing and making sure the player's gameplay experience is good.
+    why: >-
+      Designer responsibility framed around balancing/player experience.
+  - ts: "00:49:00.632"
+    quote: >-
+      let's talk about popular games in gaming history.
+    why: >-
+      Core game-history discussion matching the lesson title.
+  - ts: "01:13:48.754"
+    quote: >-
+      Sleeping Dogs. So I would suggest to play that as well. Okay?
+    why: >-
+      Assigned game-playing/analysis homework.

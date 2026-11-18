@@ -1,0 +1,52 @@
+lesson_id: L04
+lesson_title: Enhancing the mini game with inheritance
+class_date: 2026-05-12
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:32:01 (5521 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1191600058) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11453101 (section/class_id 531714, course 211072). LMS video name
+  "Enhancing the mini game with inheritance(12-May-2026-7:30 PM-9:30 PM)". Captions:
+  00:04:46-01:31:59 of 1:32:01 (99.9% coverage). 1,277 cues; 91,736 bytes; sha256
+  B3F5BC3139CD3061C9F9084923FD7F3877C6697AA5D4C579EB48EF767A82B277.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "inheritance (base ShapeModel and child classes)"
+  - "virtual methods and override"
+  - "polymorphic references (rectangle assigned to circle)"
+  - "milestone events (OnMilestoneReached)"
+  - "start/end point percentage calculations"
+  - "List<T> management (size, capacity, indexing)"
+  - "GameController spawning and tracking models"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "01:03:17.442"
+    quote: >-
+      using inheritance to different objects.
+    why: >-
+      Inheritance is the lesson's core topic
+  - ts: "01:04:23.902"
+    quote: >-
+      We know this perfectly. We are just overriding it in this,
+    why: >-
+      Method overriding taught explicitly
+  - ts: "00:16:32.622"
+    quote: >-
+      Whenever you have situation like this of 10% reached, 20% reached, use
+    why: >-
+      Milestone/event pattern introduced
+  - ts: "01:06:52.762"
+    quote: >-
+      I want you to add one feature where the circle will stop
+    why: >-
+      Explicit assigned coding task

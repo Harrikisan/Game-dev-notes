@@ -1,0 +1,54 @@
+lesson_id: L26
+lesson_title: "Scene management,"
+class_date: 2026-06-18
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:19:24 (4764 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1202558453) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11592860 (section/class_id 531714, course 211072). LMS lesson
+  title carries a trailing comma as-is ("Scene management,"). Recording is shorter
+  than the scheduled window (1:19:24 vs 2 h). Captions: 00:00:11-01:19:22 of
+  1:19:24 (99.9% coverage). 1,067 cues; 78,999 bytes; sha256
+  2260E3DF69F27BFB3E4F07444D75471886D1080FA758AE0903C17CD990C3CFD4.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "UI components overview: toggle, slider, scrollbar, dropdown, input field"
+  - "downloading/importing free UI assets (Asset Store / Package Manager)"
+  - "sprite borders and sliced images for buttons"
+  - "music mute toggle with boolean and slider volume (0Ã¢â‚¬â€œ1 float)"
+  - "scroll view (vertical/horizontal, elastic, auto-hide)"
+  - "scene loading and unloading (LoadScene/UnloadScene)"
+  - "DontDestroyOnLoad for persistent objects"
+  - "input field onEndEdit and settings panel from main menu controller"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:03.060"
+    quote: >-
+      toggle option is there, slider, scroll bar,
+    why: >-
+      Survey of Unity UI components to be implemented.
+  - ts: "00:02:31.060"
+    quote: >-
+      click on that window, asset, package manager, asset store.
+    why: >-
+      Engine asset workflow for importing UI packs.
+  - ts: "01:00:25.462"
+    quote: >-
+      start, don't destroy and load this game object.
+    why: >-
+      DontDestroyOnLoad persistence across scenes.
+  - ts: "01:19:04.044"
+    quote: >-
+      Try to implement some UI as well. Okay?
+    why: >-
+      Explicit UI implementation assignment.

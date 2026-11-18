@@ -1,0 +1,53 @@
+lesson_id: L82
+lesson_title: Graphic programming
+class_date: 2026-10-06
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:16:59 (4619 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1233434218) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860678 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:16:59 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:16:56 of 1:16:59 (99.9% coverage). 1,327
+  cues; 92,229 bytes; sha256
+  DF54A5F21A030D32052119209189ACA0663B1097E42359E3FB2A6F3127BC92A7.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "GLSL shader source embedded as strings"
+  - "vertex shader inputs/outputs (in/out keywords)"
+  - "fragment shader RGBA output"
+  - "vertex-to-fragment data flow and linear interpolation"
+  - "shader compilation on the GPU"
+  - "normalized device coordinates (NDC)"
+  - "VAO binding of attribute layout"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:15:37.422"
+    quote: >-
+      shader code is within the double quotes. What does this mean?
+    why: >-
+      Explaining GLSL source inside C++ strings
+  - ts: "00:39:33.946"
+    quote: >-
+      the pipeline, from vertex shader to the fragment shader, if you're receiving some
+    why: >-
+      Vertex-to-fragment shader pipeline teaching
+  - ts: "00:58:24.874"
+    quote: >-
+      and the shader gets compiled only in the GPU.
+    why: >-
+      Shader compilation model
+  - ts: "01:16:43.624"
+    quote: >-
+      The homeworks I gave you, just research about it
+    why: >-
+      Explicit research homework assigned

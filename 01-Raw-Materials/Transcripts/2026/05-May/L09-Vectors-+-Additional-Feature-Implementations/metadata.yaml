@@ -1,0 +1,55 @@
+lesson_id: L09
+lesson_title: Vectors + additional feature implementations
+class_date: 2026-05-21
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:22:25 (4945 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1194430055) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11485235 (section/class_id 531714, course 211072). LMS video name
+  "Vectors  additional feature implementations(21-May-2026-7:30 PM-9:30 PM)" (+
+  stripped by the LMS video naming). Recording is shorter than the scheduled window
+  (1:22:25 vs 2 h). Captions: 00:01:16-01:22:23 of 1:22:25 (99.9% coverage). 1,269
+  cues; 93,969 bytes; sha256
+  987A052629F5CB63DB210F05B66FE1CACAAA64077E4D45CBE21BC7069DA2805C.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "method overload for spawning in a radius"
+  - "Vector3 direction between two points"
+  - "transform up/forward vs world space axes"
+  - "rotating towards a direction (LookRotation)"
+  - "Vector3.magnitude and speed scaling by distance"
+  - "Vector3.MoveTowards and Vector3.distance with stop distance"
+  - "static instance (singleton) GameManager access"
+  - "GetMouseButton vs GetMouseButtonDown"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:35:45.906"
+    quote: >-
+      Got it? So basically here we are playing with the vectors, the directions and all.
+    why: >-
+      Vector math is the lesson's core topic
+  - ts: "00:38:54.122"
+    quote: >-
+      every Vector3 has a built-in function, .magnitude.
+    why: >-
+      Explicit Vector3.magnitude teaching
+  - ts: "00:46:22.194"
+    quote: >-
+      So static instance.
+    why: >-
+      Singleton/static instance pattern for managers
+  - ts: "01:22:14.228"
+    quote: >-
+      try this by tomorrow,
+    why: >-
+      Explicit homework assignment

@@ -1,0 +1,53 @@
+lesson_id: L78
+lesson_title: Game Design - Prototyping Basics
+class_date: 2026-09-18
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:32:18 (5538 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1228127443) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11809206 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window 7:30-9:00 PM IST, recording runs 32 min past it
+  (1:32:18). Captions: 00:02:57-01:32:14 of 1:32:18 (99.9% coverage). 1,537 cues;
+  112,611 bytes; sha256
+  0923D545462A534ECF601D059911464CB16CD244E76D705A1C20466A3386AEF1.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "Prototyping with wireframes (Figma-style linked UI screens)"
+  - "Wireframe conventions for UI elements and screen layouts"
+  - "Purpose of wireframes: communicating screens and functionalities"
+  - "Game admin panel design (tournament management)"
+  - "Wallet systems: deposits, withdrawals, platform fees, tickets"
+  - "Admin panels for games vs applications; system design context"
+  - "Planned (deferred): animation blueprint for third-person character in Unreal"
+classification_confidence: MEDIUM
+classification_evidence:
+  - ts: "00:22:06.430"
+    quote: >-
+      So here, what we do when adding UI elements is we follow a
+    why: >-
+      Wireframe/UI element conventions being taught
+  - ts: "00:37:24.638"
+    quote: >-
+      It is to show what all screens are there, what all functionalities are there.
+    why: >-
+      Purpose of wireframes as design communication
+  - ts: "00:45:29.530"
+    quote: >-
+      get there. It is one part of system design. It falls under that.
+    why: >-
+      Admin panel framed as system design
+  - ts: "00:55:36.610"
+    quote: >-
+      itself is self-explanatory, tournament management.
+    why: >-
+      Game admin panel modules analyzed

@@ -1,0 +1,53 @@
+lesson_id: L22
+lesson_title: Introduction to how to take input from user and moving the objects
+class_date: 2026-06-11
+start_time: 20:00 IST (LMS start_time 1200 min)
+end_time: 21:15 IST (LMS end_time 1275 min)
+duration: 0:54:54 (3294 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1200502791) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11562466 (section/class_id 531714, course 211072). Scheduled window
+  8:00-9:15 PM IST; recording is shorter (0:54:54). Captions: 00:00:08-00:54:52 of
+  0:54:54 (99.9% coverage). 729 cues; 52,002 bytes on disk (52-KB file; the text
+  contains a few non-ASCII characters, in-page char count 51,995); sha256
+  BC62987601E59232C8B10A7D47EEAB95E63E859E8A2F106C8487B609240EFBE1.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "singleton pattern recap (one instance, public access)"
+  - "delegates and Action to reference methods"
+  - "removing tight coupling with delegates"
+  - "event subscription and unsubscription"
+  - "AudioSource playback, loop, mute and pitch"
+  - "abstract classes intro (non-instantiable, must override)"
+  - "UI anchoring for on-screen elements"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:03:39.540"
+    quote: >-
+      with delegate, you can make a reference of these methods.
+    why: >-
+      Delegates taught as method references to decouple code.
+  - ts: "00:24:51.256"
+    quote: >-
+      This becomes events now.
+    why: >-
+      Event construct introduced on top of delegates.
+  - ts: "00:46:50.490"
+    quote: >-
+      Why I'm doing these changes now? I want to explain about abstract
+    why: >-
+      Abstract-class lesson segment despite input/movement title; content drives classification.
+  - ts: "00:54:40.720"
+    quote: >-
+      Go through that one, how to assign the subscribe and unsubscribe the
+    why: >-
+      Explicit review assignment on delegates/events.

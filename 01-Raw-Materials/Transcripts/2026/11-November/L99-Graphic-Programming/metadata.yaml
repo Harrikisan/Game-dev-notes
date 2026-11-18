@@ -1,0 +1,54 @@
+lesson_id: L99
+lesson_title: Graphic programming
+class_date: 2026-11-10
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:11:11 (4271 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1245500304) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860681 (section/class_id 531714, course 211072). Last lesson in
+  the collected scope. Recording is shorter than the scheduled window (1:11:11 vs
+  2 h). Captions start at 00:06:37 (brief un-captioned intro/housekeeping) and run
+  to 01:11:06 of 1:11:11 (99.9% coverage of the captioned span). 855 cues; 65,041
+  bytes; sha256
+  CEA09FF226197E4F4E97D2CC3E9F75F717B83515A251B648739842A9E489963D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "animation as values changing over time"
+  - "keyframes and poses (position, rotation, scale)"
+  - "authoring animation in seconds and delta time"
+  - "interpolation formula P(t) = a + t*(b-a)"
+  - "static (baked) vs procedural animation"
+  - "keyframe workflow of animators (Maya/Blender)"
+  - "unit 5 roadmap: physics animation, particles, collision"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:09:28"
+    quote: >-
+      5. Animation, keyframe-guided animation, procedure animation, physics-guided
+    why: >-
+      Starts unit 5: animation systems syllabus.
+  - ts: "00:28:29"
+    quote: >-
+      So, what is actually an animation?
+    why: >-
+      Foundational definition of animation being taught.
+  - ts: "00:53:37"
+    quote: >-
+      delta time, here also, we use delta time every time when we are authoring an
+    why: >-
+      Delta time applied to animation authoring.
+  - ts: "01:07:14"
+    quote: >-
+      So look at the formula here. P of t equals a plus t times
+    why: >-
+      Teaches interpolation formula for keyframe motion.

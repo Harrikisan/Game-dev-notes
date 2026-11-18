@@ -1,0 +1,54 @@
+lesson_id: L43
+lesson_title: "Audio mixer snapshots, how to handle exposed parameters from code, sending receiving effects"
+class_date: 2026-07-20
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:12:55 (4375 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1211420162) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11708576 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:12:55 vs 2 h). Captions: 00:00:08-01:12:53
+  of 1:12:55 (99.9% coverage). 1,009 cues; 72,954 bytes on disk (a few non-ASCII
+  chars; in-page char count 72,952); sha256
+  EDC93BC98715A7C225FB425D7706D7F376C007E3B82A8BDB2A0A3488520CEDF5.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "9-slice sprite borders for UI"
+  - "audio mixer snapshots"
+  - "exposed parameters controlled from code"
+  - "volume dB conversion"
+  - "snapshot presets"
+  - "send/receive echo and duck volume effects"
+  - "time.timeScale pause handling"
+  - "Rigidbody2D interpolation"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:00:57.740"
+    quote: >-
+      Snap charts, what is snap charts, how to control these
+    why: >-
+      Introduces snapshots and code control of exposed parameters.
+  - ts: "00:26:22.648"
+    quote: >-
+      parameters, like values will be different for different snapshot.
+    why: >-
+      Per-snapshot parameter values.
+  - ts: "00:59:32.786"
+    quote: >-
+      Then, the music will become lower, and whatever the important
+    why: >-
+      Duck-volume sidechain behavior.
+  - ts: "01:00:07.346"
+    quote: >-
+      audio mixers will be having echo sounds.
+    why: >-
+      Echo send/receive effects on mixers.

@@ -1,0 +1,51 @@
+lesson_id: L36
+lesson_title: Implementing a level using tile map and 2D joints
+class_date: 2026-07-07
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:23:15 (4995 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1207818183) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11672513 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:23:15 vs 2 h). Captions: 00:00:06-01:23:14
+  of 1:23:15 (99.9% coverage). 1,003 cues; 68,952 bytes; sha256
+  BE961B14DB7880548CA34197409D43458152406EEAEAF957A80AEBDB1A6625B8.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: CROSS_DISCIPLINARY
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Building a full level with rule tiles"
+  - "Ground vs decorative tilemap layers"
+  - "Sprite randomization for visual variety"
+  - "Sprite sizing/cropping for trees and bushes"
+  - "Walkable ground colliders for player animation"
+  - "Joint-based interactive props and moving platforms"
+classification_confidence: MEDIUM
+classification_evidence:
+  - ts: "00:00:21.280"
+    quote: >-
+      how to use rule tile and how to create a
+    why: >-
+      Stated goal: full level design using rule tiles (design aim, engine implementation).
+  - ts: "00:28:58.804"
+    quote: >-
+      The next thing is if you have some decorative items,
+    why: >-
+      Decorative layer choices show level-dressing design decisions.
+  - ts: "01:02:47.792"
+    quote: >-
+      our game? We can use the joints in our game.
+    why: >-
+      Technical joint setup to make the level interactive.
+  - ts: "01:22:44.014"
+    quote: >-
+      interactable thing, right? That's why some interactable objects you have to
+    why: >-
+      Explicit design rationale for interactive level content; implementation still dominates tool work, hence MEDIUM.

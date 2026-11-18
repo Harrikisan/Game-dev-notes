@@ -1,0 +1,53 @@
+lesson_id: L24
+lesson_title: "Introduction to canvas , type of canvas and User interface and button actions"
+class_date: 2026-06-16
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:16:25 (4585 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1201858027) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11592848 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:16:25 vs 2 h). Captions: 00:00:09-01:16:19
+  of 1:16:25 (99.9% coverage). 1,187 cues; 88,253 bytes; sha256
+  950CD02B2F2D0DEA5ADE797BED1C27111139D6CF0C6C614160D3C5CBCADB77DF.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "canvas render modes: screen space overlay and world space"
+  - "canvas sorting/render order"
+  - "event system requirement for button actions"
+  - "button onClick wired to public methods"
+  - "pause menu with Time.timeScale = 0 and panel toggling"
+  - "canvas scaler and resolution handling"
+  - "scene loading on Play/Home buttons (LoadScene by name)"
+  - "settings screen and per-scene audio (AudioSource/AudioListener)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:03:42.640"
+    quote: >-
+      What it does is, it will draw the UI in the screen space
+    why: >-
+      Screen space overlay canvas mode explained.
+  - ts: "00:25:17.664"
+    quote: >-
+      you don't have event system, even though if you have Canvas, if you
+    why: >-
+      Event system dependency for button actions Ã¢â‚¬â€ engine UI internals.
+  - ts: "00:41:35.046"
+    quote: >-
+      Time.delscale to 0.
+    why: >-
+      Pause implemented via Time.timeScale (ASR spelling) Ã¢â‚¬â€ technical mechanic.
+  - ts: "01:16:02.648"
+    quote: >-
+      One thing you can practice is create one main menu.
+    why: >-
+      Explicit main-menu + settings practice assignment.

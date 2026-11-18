@@ -1,0 +1,53 @@
+lesson_id: L93
+lesson_title: Graphic programming
+class_date: 2026-10-28
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:23:55 (5035 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1240313408) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11934178 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:23:55 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:23:54 of 1:23:55 (99.9% coverage). 1,251
+  cues; 81,640 bytes; sha256
+  AE60625962F72E4CDC40AEBFE4ADF506270D943FFBCE502661C8865080846FBA.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "shadow bias fixes (slope artifacts, Peter panning)"
+  - "PCF filtering of depth samples"
+  - "depth map border clamping and light far plane"
+  - "bump/normal mapping concept"
+  - "normal map texture encoding and TBN matrix"
+  - "parallax and displacement mapping"
+  - "GPU frame-capture debugging"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:45"
+    quote: >-
+      So, yeah. Our topic is shadow
+    why: >-
+      Session continues the shadow mapping topic from L92.
+  - ts: "01:02:29"
+    quote: >-
+      tangent, bitangent, and normal.
+    why: >-
+      Teaches TBN basis for tangent-space normal mapping.
+  - ts: "01:09:58"
+    quote: >-
+      maps, normal map, parallax mapping, displacement
+    why: >-
+      Surveys texture-mapping technique family taught today.
+  - ts: "01:23:31"
+    quote: >-
+      can only debug by capturing each frame and
+    why: >-
+      Teaches GPU frame-capture debugging of graphics code.

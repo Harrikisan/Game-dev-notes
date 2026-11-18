@@ -1,0 +1,51 @@
+lesson_id: L40
+lesson_title: Introduction to 2D effectors
+class_date: 2026-07-15
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:07:56 (4076 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1210243580) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11692669 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:07:56 vs 2 h). Captions: 00:00:06-01:07:49
+  of 1:07:56 (99.8% coverage). 972 cues; 72,923 bytes; sha256
+  2BF8254EFFFF197BAC4009EBFE8B0D47148B51A3C4CB7328EB4FD40FF122B37F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Surface effector (conveyor belt movement)"
+  - "Buoyancy effector (floating objects, water density)"
+  - "Area effector push forces and force variation"
+  - "Platform effector one-way collision and side friction"
+  - "Point effector attraction (magnet behavior)"
+  - "Used By Effector flag and physics material interplay"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:08:31.630"
+    quote: >-
+      create any surface, like conveyor belt kind of thing.
+    why: >-
+      Surface effector use case demoed.
+  - ts: "00:57:38.032"
+    quote: >-
+      platform collider, platform effector one-way collision only.
+    why: >-
+      One-way platform effector configuration.
+  - ts: "01:07:22.016"
+    quote: >-
+      Like a magnet. You can consider it as a magnet kind of thing. That's it.
+    why: >-
+      Point effector attraction behavior explained.
+  - ts: "00:00:38.780"
+    quote: >-
+      So go through that class so that you can understand what is that.
+    why: >-
+      Catch-up assignment referencing the prior audio mixer class.

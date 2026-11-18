@@ -1,0 +1,53 @@
+lesson_id: L06
+lesson_title: Implementing the racing game
+class_date: 2026-05-14
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:28:18 (5298 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1192304841) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11460929 (section/class_id 531714, course 211072). LMS video name
+  "Implementing the racing game(14-May-2026-7:30 PM-9:30 PM)". Captions:
+  00:05:36-01:28:14 of 1:28:18 (99.9% coverage). 1,401 cues; 100,480 bytes; sha256
+  55C4DEB8FD74140BECB691ECACF645BBF908310B7C66635862A547613CDFC381.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "viewport-to-world point conversion"
+  - "screen resolution and aspect ratio handling"
+  - "Random.Range letter and lane generation"
+  - "GameObject data type and Instantiate spawning"
+  - "creating prefabs/assets for drag-and-drop spawning"
+  - "lane-based spawn positions"
+  - "UI text definition and Rect Transform"
+  - "new Input System overview"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:32:04.472"
+    quote: >-
+      in viewports, I'll say, "Hey, convert that to world space." The point is
+    why: >-
+      Viewport-to-world conversion taught
+  - ts: "00:49:11.954"
+    quote: >-
+      generate a random letter
+    why: >-
+      Random letter generation for the spawner
+  - ts: "01:19:02.936"
+    quote: >-
+      And the next thing is making any object as an asset so that I
+    why: >-
+      Prefab/asset creation for spawning
+  - ts: "01:23:31.926"
+    quote: >-
+      And also, one assignment for you. Here, the lane is there.
+    why: >-
+      Explicit assignment given

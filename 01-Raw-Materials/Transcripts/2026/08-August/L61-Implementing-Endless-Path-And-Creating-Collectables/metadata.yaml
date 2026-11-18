@@ -1,0 +1,52 @@
+lesson_id: L61
+lesson_title: Implementing endless path and creating collectables
+class_date: 2026-08-17
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:19:07 (4747 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1218963564) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11777242 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:19:07 vs 2 h). Captions: 00:00:10-01:19:02
+  of 1:19:07 (99.9% coverage). 1,141 cues; 82,599 bytes; sha256
+  F9EA8761788B3696F7A23518979C7D1B7C550F90C77684FCE21BCB9B42AF8C2F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Endless path generation with a Queue of road segments (object pooling)"
+  - "Recycling path segments by shifting nextSegmentPosition.z ahead of the player"
+  - "Installing Cinemachine: Cinemachine brain, virtual camera, tracking target and follow"
+  - "Camera dead zones in Cinemachine"
+  - "Lane switching with left/right input and a clamped current lane index"
+  - "Smooth lane movement with Time.deltaTime and transform.position"
+  - "Accelerometer (tilt) input plan for mobile controls"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:58"
+    quote: >-
+      we just take it from the queue and change the position.
+    why: >-
+      Queue-based pooling of road segments for the endless path
+  - ts: "00:42:24"
+    quote: >-
+      In the components, you can see the cinemachine here.
+    why: >-
+      Cinemachine installation and setup
+  - ts: "00:53:38"
+    quote: >-
+      Dead zone means, what it will do is, so if we add dead zone,
+    why: >-
+      Teaches Cinemachine dead zone behaviour
+  - ts: "01:18:24"
+    quote: >-
+      Try to do these things, because in this, we have the lane switching, right?
+    why: >-
+      Explicit practice assignment to students

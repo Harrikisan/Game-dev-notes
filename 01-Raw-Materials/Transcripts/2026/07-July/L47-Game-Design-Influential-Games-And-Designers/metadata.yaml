@@ -1,0 +1,52 @@
+lesson_id: L47
+lesson_title: Game design-Influential Games and Designers
+class_date: 2026-07-24
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:35:50 (5750 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1212703003) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11708609 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window 7:30-9:00 PM IST, recording runs 35:50 past it
+  (1:35:50). Captions: 00:02:38-01:35:46 of 1:35:50 (99.9% coverage). 850 cues;
+  62,389 bytes on disk (a couple of non-ASCII chars; in-page char count 62,387);
+  sha256 EB4CC16A7D7A6676FF1196C8029C9440F4B863C80F861F0A61E2DDFD63BF4BA7.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "practical concept document workshop"
+  - "reviewing theme, genre, objective and actions"
+  - "single vs multi-concept templates"
+  - "choosing target platform (mobile vs mainstream)"
+  - "genre variations (co-op, rogue-like, endless, level-based)"
+  - "concept document feedback and review workflow"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:47.800"
+    quote: >-
+      today will be a completely practical session where
+    why: >-
+      Practical concept document session.
+  - ts: "00:24:01.106"
+    quote: >-
+      So I will suggest one co-op, one level-based, and one endless rogue-like.
+    why: >-
+      Genre variation suggestions for concepts.
+  - ts: "00:30:48.928"
+    quote: >-
+      which platform do you think this will be at? For mobile or mainstream?
+    why: >-
+      Platform decision for concept.
+  - ts: "01:35:11.612"
+    quote: >-
+      But I want your concept document to be ready by next class.
+    why: >-
+      Deliverable deadline.

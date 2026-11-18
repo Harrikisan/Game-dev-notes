@@ -1,0 +1,52 @@
+lesson_id: L30
+lesson_title: "Animations, animator and how to handle with code"
+class_date: 2026-06-29
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:18:53 (4733 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1205522383) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11627566 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:18:53 vs 2 h). Captions: 00:00:09-01:18:51
+  of 1:18:53 (99.9% coverage). 1,178 cues; 90,318 bytes; sha256
+  D1DF19D003FCE3D34967D5323A257FA779958F6FBC3911EA91EF18BEEEFB900F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Animation window: recording and keyframes (position, rotation, scale)"
+  - "creating Animator Controller and animation states"
+  - "walk/idle/jump clips from sprite sheets"
+  - "animator parameters (bool isWalk/isJump, float speed)"
+  - "transitions, conditions, has exit time, Any State"
+  - "setting animator parameters from code"
+  - "moving platform created via animation"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:17.820"
+    quote: >-
+      it from codes, as well as you can do it from animation. Okay?
+    why: >-
+      Animation handled both via editor and code Ã¢â‚¬â€ matches lesson title.
+  - ts: "00:37:59.038"
+    quote: >-
+      So I'm creating Boolean parameter.
+    why: >-
+      Animator parameters used to drive state changes.
+  - ts: "00:48:10.108"
+    quote: >-
+      has exit time, I'm making it false so that it will immediately switch from
+    why: >-
+      Transition settings (has exit time) configured for instant switching.
+  - ts: "01:08:56.110"
+    quote: >-
+      So I have to pass the X value from the course.
+    why: >-
+      Passing movement input value from code into the animator (ASR 'course' for 'code').

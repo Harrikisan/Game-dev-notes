@@ -1,0 +1,55 @@
+lesson_id: L14
+lesson_title: "Grid Based Mechanics ( + practical )"
+class_date: 2026-05-29
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:08:48 (4128 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1196719700) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11512194 (section/class_id 531714, course 211072). LMS video name
+  "Grid Based Mechanics   practical (29-May-2026-7:30 PM-9:30 PM)" (parens stripped
+  by the LMS video naming). Recording is shorter than the scheduled window (1:08:48
+  vs 2 h). Captions: 00:01:50-01:08:45 of 1:08:48 (99.9% coverage). 1,102 cues;
+  80,722 bytes; sha256
+  E4CF1345966237D98329D26267CB46A72D6F62214D9C867805241C4A9B2F7E9D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Tycoon game genre hook"
+  - "2D arrays for grid data"
+  - "UI Grid Layout Group"
+  - "Spawning tiles with Instantiate"
+  - "Ground tile data (plant, row, column)"
+  - "Tile manager data vs object rendering"
+  - "Clicking tiles (OnMouseDown/physics)"
+  - "Seed selection planning"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:25"
+    quote: >-
+      And tycoon games. Have you heard about tycoon games?
+    why: >-
+      Genre hook introducing the garden/tycoon-style project
+  - ts: "00:25:49"
+    quote: >-
+      I want to discuss a small concept in UI, which is grid.
+    why: >-
+      UI grid concept taught
+  - ts: "00:46:29"
+    quote: >-
+      5 into 6, 30 tiles,
+    why: >-
+      Grid spawn loop producing 5x6 tiles
+  - ts: "01:08:00"
+    quote: >-
+      It is giving the data to the object.
+    why: >-
+      Tile manager data vs rendering separation

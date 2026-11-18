@@ -1,0 +1,51 @@
+lesson_id: L32
+lesson_title: "Overview of all 2D colliders, use cases of 2D joints with examples"
+class_date: 2026-07-01
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:27:19 (5239 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1206211311) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11646083 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:27:19 vs 2 h). Captions: 00:00:05-01:27:16
+  of 1:27:19 (99.9% coverage). 1,304 cues; 101,405 bytes; sha256
+  FC5B9396A2EBF991687FEF53C41B35120F7A8EFC19533CAA1AEF002337CCAAB3.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Overview of 2D colliders (polygon, capsule, box)"
+  - "Edit Collider tool"
+  - "Composite collider operations (merge)"
+  - "Physics Material 2D friction"
+  - "Fixed, spring and distance joints 2D"
+  - "Hinge joint 2D angle limits and break force"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:11:37.224"
+    quote: >-
+      So if you use polygon collider 2D, then it is trying
+    why: >-
+      Overview of 2D collider types and their behavior.
+  - ts: "00:53:26.790"
+    quote: >-
+      This component will get destroyed if you apply 10 force.
+    why: >-
+      Teaches joint break force property.
+  - ts: "01:04:25.718"
+    quote: >-
+      This is useful when you have the hanging kind of things.
+    why: >-
+      Use case for the joint being demoed.
+  - ts: "01:09:23.494"
+    quote: >-
+      Doors is nothing but a hinge joint.
+    why: >-
+      Hinge joint use case demonstrated.

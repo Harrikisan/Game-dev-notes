@@ -1,0 +1,55 @@
+lesson_id: L98
+lesson_title: Game Design - Playing and Analyzing Games
+class_date: 2026-11-09
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 22:30 IST (LMS end_time 1350 min)
+duration: 1:27:39 (5259 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1245159330) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11809227 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window is 3 h (7:30-10:30 PM IST); recording is 1:27:39,
+  well inside it. Captions start at 00:08:33 (un-captioned intro/housekeeping,
+  like other late-starting Game Design sessions) and run to 01:27:37 of 1:27:39
+  (99.9% coverage of the captioned span). 900 cues; 69,346 bytes; sha256
+  736BE4A844E48AEC0B9457B7C6539F074F0A9601CE6A850B2E932A2B87D274B3.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "game design pre-production recap (conceptualization)"
+  - "core loop analysis of played games"
+  - "static vs dynamic objectives"
+  - "game deconstruction"
+  - "system design with parameters and values (balance sheet)"
+  - "chest/reward economy and character classes (Clash Royale-like)"
+  - "monetization via rewarded ads"
+  - "replayability"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:08:47"
+    quote: >-
+      guys, I'm going to discuss about a few game design-related concepts
+    why: >-
+      Lesson self-identifies as game design content.
+  - ts: "00:17:51"
+    quote: >-
+      Okay, so that is what game deconstruction is.
+    why: >-
+      Teaches deconstruction as analysis practice.
+  - ts: "00:38:56"
+    quote: >-
+      So this is for a game that is similar to Clash Royale.
+    why: >-
+      System design example sheet for balance parameters.
+  - ts: "01:27:20"
+    quote: >-
+      I wanted to give a recap and also introduce you to system design today. Okay?
+    why: >-
+      Closing summary confirms recap + system design focus.

@@ -1,0 +1,53 @@
+lesson_id: L70
+lesson_title: Implementing player and enemy health systems
+class_date: 2026-09-03
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:27:59 (5279 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1223735901) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11826177 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:27:59 vs 2 h). Captions: 00:00:09-01:27:53
+  of 1:27:59 (99.9% coverage). 662 cues; 47,582 bytes; sha256
+  18B5FAF8960DDE3C1F138BDBE5E451F7D15E1CBB86778F14A5E927CF9D0A8B0D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Downloading and setting up health bar assets (green for player, red for enemies)"
+  - "Canvas types: world-space health bar that moves above the enemy"
+  - "Image fill/size settings for the health bar display"
+  - "Health scripts: float maxHealth, reducing health, updating the bar, Die when health is zero with destroy delay"
+  - "Fire rate (nextFireRate) for shooting and hit effect particles"
+  - "Health bar Look At (billboard) so players can read enemy health"
+  - "Enemy gun/rifle animations (holding gun, walking with gun) and rifle placement"
+  - "Enemy attack state: NavMesh stopping distance and transform.forward raycast with layer mask"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:00:24"
+    quote: >-
+      Today, we are going to discuss about how to implement the player health system and
+    why: >-
+      Lesson topic: health systems implementation
+  - ts: "00:04:02"
+    quote: >-
+      So whenever I move the enemy, my UI should move, right, so that health bar should
+    why: >-
+      World-space canvas for enemy health bar
+  - ts: "00:29:47"
+    quote: >-
+      float maxHealth.
+    why: >-
+      Health system scripting
+  - ts: "01:27:28"
+    quote: >-
+      So that's why I'm asking you to complete your portfolio project from last month
+    why: >-
+      Portfolio project assignment

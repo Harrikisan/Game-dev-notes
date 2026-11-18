@@ -1,0 +1,53 @@
+lesson_id: L65
+lesson_title: Introducing particle system and completing the project
+class_date: 2026-08-24
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 0:57:34 (3454 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1220868264) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11777253 (section/class_id 531714, course 211072). Recording is
+  much shorter than the scheduled window (0:57:34 vs 2 h). Captions start at the
+  very beginning (00:00:00) and run to 00:52:17 of 0:57:34 (90.8% coverage;
+  captions stop about 5 min before the recording ends). 577 cues; 40,269 bytes;
+  sha256 22B5377C27BD38C8EBCCCF53639626BB0C5AF2AEFFAC7AA19E67623ACA4EE2F6.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Reducing plane/path segment length and spawn distances"
+  - "Fixing collectable/coin generation positions to the path"
+  - "Assigning parents to instantiated objects (obstacles.transform.parent) vs code-only assignment"
+  - "GetComponentsInChildren to find path generators on instantiated segments"
+  - "Dequeue/enqueue of obstacles back to the pool and reinstantiation"
+  - "ClearCollectables: destroying objects, clearing the queue and regenerating"
+  - "Skybox import from Package Manager"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:14:35"
+    quote: >-
+      the obstacles, coins, everything is generated properly. That's good.
+    why: >-
+      Verifying spawn positions after fixes
+  - ts: "00:20:36"
+    quote: >-
+      use this pattern, obstacles.transform.parent is equal whatever the
+    why: >-
+      Parenting instantiated objects in code
+  - ts: "00:33:33"
+    quote: >-
+      Get components in children.
+    why: >-
+      GetComponentsInChildren for child generators
+  - ts: "00:43:23"
+    quote: >-
+      ClearCollectables.
+    why: >-
+      Method to destroy and clear collectable queue

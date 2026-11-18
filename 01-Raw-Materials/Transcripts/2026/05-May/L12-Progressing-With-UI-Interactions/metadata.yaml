@@ -1,0 +1,54 @@
+lesson_id: L12
+lesson_title: Progressing with UI interactions
+class_date: 2026-05-26
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:19:21 (4761 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1195679844) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11502533 (section/class_id 531714, course 211072). LMS video name
+  "Progressing with UI interactions(26-May-2026-7:30 PM-9:30 PM)". Continuation of
+  the same-title session from 2026-05-25 (L11, which is only a 20-min fragment).
+  Recording is shorter than the scheduled window (1:19:21 vs 2 h). Captions:
+  00:02:27-01:19:15 of 1:19:21 (99.9% coverage). 1,142 cues; 81,932 bytes; sha256
+  27EBADAFD4613852345F5100E667D7AF74049C67F89B76FCD2905A4831AA62CB.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Inspector values driving gameplay"
+  - "UI Image fill amount and eat timer"
+  - "Kitty stats panel with anchors and opacity"
+  - "UIManager singleton and value display"
+  - "Enums for button categories"
+  - "onClick listeners for upgrade buttons"
+  - "Auto-click background timer"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:03:26"
+    quote: >-
+      on the Inspector, right? In Inspector, you have a list, you can change the values
+    why: >-
+      Inspector values affect gameplay before UI is added
+  - ts: "00:21:48"
+    quote: >-
+      So it took 0.9 seconds to eat.
+    why: >-
+      Live fill-amount/timer implementation
+  - ts: "00:48:18"
+    quote: >-
+      For these scenarios, the best way to do that is using enums.
+    why: >-
+      C# enums categorize buttons
+  - ts: "01:03:56"
+    quote: >-
+      KittyController.instance.upgradeEatSpeed,
+    why: >-
+      Singleton controller method wired to UI button

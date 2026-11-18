@@ -1,0 +1,52 @@
+lesson_id: L95
+lesson_title: Graphic programming
+class_date: 2026-11-02
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:10:01 (4201 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1242444453) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11934172 (section/class_id 531714, course 211072). First November
+  lesson. Recording is shorter than the scheduled window (1:10:01 vs 2 h).
+  Captions: 00:00:03-01:09:55 of 1:10:01 (99.9% coverage). 641 cues; 46,225
+  bytes; sha256
+  35F584C79475784179AA1B03D26D20FFF846D49A08933796EE21795762195B47.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "OBJ parser implementation with a dispatch loop"
+  - "vertex and mesh data structures"
+  - "indexed rendering with glDrawElements"
+  - "Assimp (asset import) library"
+  - "CMake build and linking external libraries"
+  - "organizing texture and model paths"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:17:43"
+    quote: >-
+      and then parsing it. This is called a dispatch loop in
+    why: >-
+      Explains dispatch loop pattern in the OBJ parser.
+  - ts: "00:25:13"
+    quote: >-
+      call. How? With function glDrawElements.
+    why: >-
+      Indexed drawing of parsed model data in OpenGL.
+  - ts: "00:28:11"
+    quote: >-
+      The whole idea of this session was to understand what this Asset Import
+    why: >-
+      Session goal: understanding the Assimp import library.
+  - ts: "00:57:25"
+    quote: >-
+      Why do we need CMake after this?
+    why: >-
+      CMake build integration of the external library.

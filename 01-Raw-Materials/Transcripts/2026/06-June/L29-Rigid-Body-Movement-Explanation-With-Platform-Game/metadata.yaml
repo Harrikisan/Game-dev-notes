@@ -1,0 +1,53 @@
+lesson_id: L29
+lesson_title: Rigid body movement explanation with platform game
+class_date: 2026-06-25
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:29:42 (5382 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1204586692) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11627560 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:29:42 vs 2 h). Captions: 00:00:06-01:29:39
+  of 1:29:42 (99.9% coverage). 1,160 cues; 86,421 bytes; sha256
+  06BCE74CE32AA2D4BC972443CB9F3827F89DC43EC806B0B4CCC54DA4CF81A603.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "rigidbody movement vs transform-based movement"
+  - "rigidbody movement methods: MovePosition, AddForce, linearVelocity"
+  - "FixedUpdate and fixed physics time steps (no Time.deltaTime)"
+  - "Rigidbody2D GetComponent access"
+  - "Input.GetAxis / GetAxisRaw for horizontal input"
+  - "GetKeyDown/GetKeyUp for instant-force jumps"
+  - "static colliders for ground objects"
+  - "Legacy Text vs TextMeshPro (fonts, rich text)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:00:58.600"
+    quote: >-
+      even though we added the rigid body, we are not using actual rigid
+    why: >-
+      Lesson goal: real rigidbody movement instead of transform changes.
+  - ts: "00:16:03.778"
+    quote: >-
+      Why in FixedUpdate only we have to write?
+    why: >-
+      Physics timestep reasoning Ã¢â‚¬â€ engine physics internals.
+  - ts: "00:22:42.862"
+    quote: >-
+      For normal character movements, we have to use Rigidbody.linearVelocity.
+    why: >-
+      Concrete movement API recommendation for characters.
+  - ts: "01:13:51.248"
+    quote: >-
+      Krishnan, you also try to set your laptop and try to do this
+    why: >-
+      Students directed to attempt the exercise on their own machines.

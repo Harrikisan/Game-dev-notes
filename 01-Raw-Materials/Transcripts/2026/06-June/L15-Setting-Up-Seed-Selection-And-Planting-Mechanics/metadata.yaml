@@ -1,0 +1,54 @@
+lesson_id: L15
+lesson_title: Setting up seed selection and planting mechanics
+class_date: 2026-06-01
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:30:26 (5426 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1197423961) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11526080 (section/class_id 531714, course 211072). LMS video name
+  "Setting up seed selection and planting mechanics(01-Jun-2026-7:30 PM-9:30 PM)".
+  Recording runs within the scheduled 2 h window (1:30:26). Captions: 00:01:09-01:30:20
+  of 1:30:26 (99.9% coverage). 1,225 cues; 92,610 bytes; sha256
+  87ABDB3E20EE7B5FC085F8404478CF7BF8C92623800BA0587D5AC121B9E9D957.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Tile-based garden clicker"
+  - "Seed selection UI buttons"
+  - "PlantType enum"
+  - "Sending selection data to TileManager"
+  - "Coroutines and WaitForSeconds"
+  - "Lerp-based timed movement"
+  - "Plant growth stages (seed-plant-tree-harvest)"
+  - "Opacity fade with alpha"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:48"
+    quote: >-
+      garden kind of game where we'll be having some seeds for us to plant.
+    why: >-
+      Defines the tile-based garden project
+  - ts: "00:23:02"
+    quote: >-
+      do this categorization of things, we have to use enum.
+    why: >-
+      PlantType enum for seed categories
+  - ts: "00:56:44"
+    quote: >-
+      So lerping will be done like this.
+    why: >-
+      Lerp-based timed movement taught
+  - ts: "01:03:38"
+    quote: >-
+      New wait for seconds. We have wait for frames, we have wait for
+    why: >-
+      Coroutine wait types taught

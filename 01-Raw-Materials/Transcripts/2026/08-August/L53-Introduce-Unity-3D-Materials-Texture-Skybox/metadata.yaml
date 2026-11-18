@@ -1,0 +1,53 @@
+lesson_id: L53
+lesson_title: "Introduce unity 3D . Materials texture, skybox"
+class_date: 2026-08-04
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:33 (4893 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1215540916) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11744429 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:21:33 vs 2 h). Captions: 00:00:29-01:21:31
+  of 1:21:33 (99.9% coverage). 1,110 cues; 89,773 bytes; sha256
+  FE04A573269B62F624D4B2545504F3FE28F31AC4A5CE9CA34B308A476EEC6DD3.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "3D coordinate system vs 2D"
+  - "orthographic vs perspective cameras and FOV"
+  - "mesh filter and mesh renderer components"
+  - "materials, base map and textures"
+  - "skybox and environmental lighting"
+  - "hard/soft shadows and performance"
+  - "3D rigidbody and physics materials"
+  - "movement script with Input.GetAxis"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:24:02.019"
+    quote: >-
+      whenever you create some 3D objects, you can see mesh filter and mesh renderer.
+    why: >-
+      Core 3D component teaching
+  - ts: "00:43:35.206"
+    quote: >-
+      In all skyboxes, you'll be having different skyboxes.
+    why: >-
+      Skybox setup topic
+  - ts: "00:49:13.222"
+    quote: >-
+      I'm using hard shadows. If you use hard shadows, sometimes in the
+    why: >-
+      Shadow settings and performance trade-offs
+  - ts: "01:08:05.465"
+    quote: >-
+      I'll take from input.getaxis of vertical. Okay?
+    why: >-
+      Input-driven movement scripting

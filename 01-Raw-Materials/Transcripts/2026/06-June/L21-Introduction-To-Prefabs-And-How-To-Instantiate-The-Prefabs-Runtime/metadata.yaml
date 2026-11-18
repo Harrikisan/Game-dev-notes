@@ -1,0 +1,53 @@
+lesson_id: L21
+lesson_title: Introduction to prefabs and how to instantiate the prefabs runtime
+class_date: 2026-06-10
+start_time: 20:00 IST (LMS start_time 1200 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:03:43 (3823 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1200155723) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11562406 (section/class_id 531714, course 211072). Scheduled window
+  8:00-9:00 PM IST; recording runs 3:43 past it (1:03:43). Captions: 00:00:06-01:03:33
+  of 1:03:43 (99.7% coverage). 930 cues; 68,149 bytes; sha256
+  B5735226B409661C918063D64923FD5F7FA89029A0E92F76006C8C459B8F0F44.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "collision vs trigger events (OnTriggerEnter/OnCollisionEnter)"
+  - "prefab creation and prefab asset editing workflow"
+  - "runtime instantiation with Instantiate"
+  - "object arrays and Random.Range for random fruit spawning"
+  - "randomized spawn positions"
+  - "Invoke/InvokeRepeating timed spawning"
+  - "Destroy and SetActive(false) on pickup"
+  - "UI manager text updates via singleton instance"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:08:23.320"
+    quote: >-
+      Level one, you can use this prefab. Level two, you can use this one.
+    why: >-
+      Prefab reuse across levels Ã¢â‚¬â€ core engine asset workflow.
+  - ts: "00:16:01.444"
+    quote: >-
+      We have one concept called instantiation.
+    why: >-
+      Runtime instantiation taught directly, matching lesson title.
+  - ts: "00:58:57.678"
+    quote: >-
+      a single instance of my class. That is done by singleton. Okay.
+    why: >-
+      C# singleton pattern for the UI manager, technical implementation.
+  - ts: "01:03:25.306"
+    quote: >-
+      So try to practice this project, this game.
+    why: >-
+      Explicit at-home practice assignment on the live-built game.

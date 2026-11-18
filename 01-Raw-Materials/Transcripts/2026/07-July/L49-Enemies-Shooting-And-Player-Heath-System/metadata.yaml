@@ -1,0 +1,53 @@
+lesson_id: L49
+lesson_title: "enemies shooting and player Heath system"
+class_date: 2026-07-28
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:21:13 (4873 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1213642560) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11728349 (section/class_id 531714, course 211072). LMS lesson
+  title kept verbatim incl. its "Heath" spelling (= "health"). Title is lowercase
+  as entered. Recording is shorter than the scheduled window (1:21:13 vs 2 h).
+  Captions: 00:00:05-01:21:09 of 1:21:13 (99.9% coverage). 998 cues; 69,556
+  bytes; sha256 2814B40FFFFC5C45F0180375FA4DCFDB2510011CBCE2E1BD058AD8C05EA882C8.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "bullet disable fix: OnEnable vs Start"
+  - "enemy target detection with circle collider trigger"
+  - "CompareTag/layer checks"
+  - "enemy chase state with Vector2.distance"
+  - "enemy shooting with fireRate timer"
+  - "separate enemy bullet script (velocity/rotation)"
+  - "player health preview"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:31.780"
+    quote: >-
+      We have to move this code into onEnable, not in the start.
+    why: >-
+      Pooled bullet lifecycle fix.
+  - ts: "00:07:15.516"
+    quote: >-
+      So for that, I'm creating one circle collider.
+    why: >-
+      Target detection trigger.
+  - ts: "00:55:55.328"
+    quote: >-
+      If chase distance is something less than five, we are stopping
+    why: >-
+      Chase stop-distance logic.
+  - ts: "01:20:31.584"
+    quote: >-
+      So the next thing is we have to do player health.
+    why: >-
+      Player health as next step.

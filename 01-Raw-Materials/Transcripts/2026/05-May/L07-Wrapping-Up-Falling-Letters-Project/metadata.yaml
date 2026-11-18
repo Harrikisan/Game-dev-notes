@@ -1,0 +1,55 @@
+lesson_id: L07
+lesson_title: "Wrapping up “Falling Letters” project"
+class_date: 2026-05-15
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:40:50 (6050 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1192634189) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11462498 (section/class_id 531714, course 211072). LMS video name
+  "Wrapping up Falling Letters project(15-May-2026-7:30 PM-9:30 PM)" (curly quotes
+  stripped by the LMS video naming). Recording runs 20 min past the scheduled window
+  (1:40:50). Captions: 00:02:34-01:40:47 of 1:40:50 (99.9% coverage). 1,736 cues;
+  119,425 bytes; sha256
+  31E00BF277E6E98A077D764AEA6959FE73FFD7AE13F216A80A336E563C27F4B2.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "spawn interval and repeat rate"
+  - "random index to alphabet conversion (0-26)"
+  - "KeyCode input independent of caps lock"
+  - "matching clicked key against spawned falling letters"
+  - "iterating lists of spawned objects"
+  - "destroying/despawning matched letters"
+  - "distance property to the player (Vector3 distance)"
+  - "viewport-to-world point caching"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:41:03.492"
+    quote: >-
+      So now let's have a random index from 0 to 26,
+    why: >-
+      Random alphabet generation logic
+  - ts: "00:45:20.902"
+    quote: >-
+      It doesn't depend on caps lock. Key code dot small letter A, capital letter A,
+    why: >-
+      KeyCode matching implementation detail
+  - ts: "00:59:32.772"
+    quote: >-
+      So now, how do I iterate through each and every falling letter
+    why: >-
+      Matching logic over spawned objects
+  - ts: "01:27:32.306"
+    quote: >-
+      Okay, so I want you to do this for assignment along with whatever we have done till
+    why: >-
+      Explicit assignment given

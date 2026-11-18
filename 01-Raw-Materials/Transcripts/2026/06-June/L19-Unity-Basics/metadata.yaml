@@ -1,0 +1,54 @@
+lesson_id: L19
+lesson_title: Unity Basics
+class_date: 2026-06-08
+start_time: 20:00 IST (LMS start_time 1200 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:04:30 (3870 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1199477405) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11558812 (section/class_id 531714, course 211072). First Unity
+  session after the May-June C# block; scheduled window 8:00-9:00 PM IST, recording
+  runs 4:30 past it (1:04:30). Captions start at 00:00:06 and run to 01:04:27 of
+  1:04:30 (99.9% coverage). 1,104 cues; 81,508 bytes; sha256
+  611FB26315D7DC694DC4149585C91CFAA3DD06FC22D964FE4F26B4F1E4396A93.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Unity editor and 2D project setup"
+  - "Rigidbody and body types (kinematic)"
+  - "Colliders (box collider) and physics materials"
+  - "Mass and friction"
+  - "SerializeField exposure"
+  - "MonoBehaviour lifecycle (Awake, Start, Update, FixedUpdate)"
+  - "FixedUpdate for physics calculations"
+  - "Collision data and tags"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:19"
+    quote: >-
+      I'll create one game, then I'll explain the
+    why: >-
+      Plan: teach Unity topics through a demo game
+  - ts: "00:20:44"
+    quote: >-
+      This object is falling because we added rigid body.
+    why: >-
+      Rigidbody physics demo
+  - ts: "00:43:54"
+    quote: >-
+      first. Next one is Awake, next one is Start.
+    why: >-
+      MonoBehaviour lifecycle order taught
+  - ts: "00:48:25"
+    quote: >-
+      go with FixedUpdate. So on the physics calculations, things
+    why: >-
+      FixedUpdate for physics code

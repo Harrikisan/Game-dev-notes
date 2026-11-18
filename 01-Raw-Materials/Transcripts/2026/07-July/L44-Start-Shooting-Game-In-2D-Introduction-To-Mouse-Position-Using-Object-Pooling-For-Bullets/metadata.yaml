@@ -1,0 +1,54 @@
+lesson_id: L44
+lesson_title: "start shooting game in 2D, introduction to mouse position ,using object pooling for bullets"
+class_date: 2026-07-21
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:15:36 (4536 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1211741241) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11708577 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:15:36 vs 2 h). Captions: 00:00:06-01:15:32 of 1:15:36 (99.9% coverage). 997
+  cues; 69,794 bytes; sha256
+  1ACF01DD423DCBA499074A32F9A2738070C10368008D5653551DC0767EDED87E.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "top-down shooter project setup"
+  - "character sprite sheet animations"
+  - "mouse position via ScreenToWorldPoint"
+  - "bullet object pooling with a static pool"
+  - "fire rate timer"
+  - "clamping movement to screen bounds"
+  - "camera follow in LateUpdate"
+  - "bullet shooting sounds"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:46.260"
+    quote: >-
+      Okay, so we are going to create a top-down shooter kind
+    why: >-
+      New top-down shooter project.
+  - ts: "00:15:27.976"
+    quote: >-
+      Okay? This will give you the mouse position
+    why: >-
+      Mouse position input introduction.
+  - ts: "00:33:48.106"
+    quote: >-
+      I'm taking a static object of my bulletPool.
+    why: >-
+      Object pooling for bullets.
+  - ts: "01:14:46.622"
+    quote: >-
+      Using the blend trees, we will do the character
+    why: >-
+      Blend trees announced for directional animation.

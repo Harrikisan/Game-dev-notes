@@ -1,0 +1,51 @@
+lesson_id: L37
+lesson_title: "Introduction to lights in 2D , creating some obstacles and enemies"
+class_date: 2026-07-08
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:31:27 (5487 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1208156355) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11675356 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:31:27 vs 2 h). Captions: 00:00:16-01:31:24
+  of 1:31:27 (99.9% coverage). 1,324 cues; 98,987 bytes; sha256
+  04C75C01B52016E7156D1EFF0F4DB7C722C21C4844938BD3ECE9918BD04393BE.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "2D lighting with URP (global, sprite, spot, point lights)"
+  - "Light color, intensity and direction settings"
+  - "Shadows with Shadow Caster 2D"
+  - "Moving obstacle via waypoint arrays"
+  - "Trigger-based obstacle collision and destroy logic"
+  - "Invoke and coroutines"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:22.300"
+    quote: >-
+      In built-in render pipelines, we don't have lighting concept.
+    why: >-
+      Frames 2D lighting as a URP capability being taught.
+  - ts: "00:01:34.060"
+    quote: >-
+      see these things, Sprite Light 2D, Spot Light 2D,
+    why: >-
+      Lists the 2D light types introduced.
+  - ts: "01:01:13.500"
+    quote: >-
+      Okay, now it is moving properly. Once it is reaching here, I
+    why: >-
+      Waypoint obstacle movement implemented and tested live.
+  - ts: "01:24:37.508"
+    quote: >-
+      enumerate this coroutine, so you have to call like start
+    why: >-
+      Coroutine teaching tied to the assigned task.

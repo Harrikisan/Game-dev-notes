@@ -1,0 +1,52 @@
+lesson_id: L91
+lesson_title: Graphic programming
+class_date: 2026-10-22
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:15:25 (4525 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1238443149) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860676 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:15:25 vs 2 h). Captions: 00:00:01-01:15:24
+  of 1:15:25 (99.9% coverage). 942 cues; 74,721 bytes (74,723 bytes on disk; the
+  text contains a few non-ASCII characters, in-page char count 74,721); sha256
+  FA48B9FD05E65BC84A5B595A92E263B20D5780733EA361541EAEE986CEF18503.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "multiple light types: directional, point, spot"
+  - "light attenuation (constant, linear, quadratic terms)"
+  - "spotlight soft edges and intensity clamping"
+  - "combining multiple lights in the fragment shader"
+  - "ambient light handled separately in the main function"
+  - "forward rendering and its performance cost"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:26"
+    quote: >-
+      So this is what we are going to see today, how to deal with multiple lights.
+    why: >-
+      Lesson goal: implementing multiple lights in OpenGL shaders.
+  - ts: "00:30:31"
+    quote: >-
+      a constant, a linear number, and a quadratic equation.
+    why: >-
+      Teaches attenuation formula terms for point/spot lights.
+  - ts: "01:04:37"
+    quote: >-
+      What is forward rendering? Let me repeat.
+    why: >-
+      Explains forward rendering and multi-light performance cost.
+  - ts: "01:15:06"
+    quote: >-
+      Try executing them, play around with them. If you have any questions, ask me.
+    why: >-
+      Explicit assignment to run and experiment with the code.

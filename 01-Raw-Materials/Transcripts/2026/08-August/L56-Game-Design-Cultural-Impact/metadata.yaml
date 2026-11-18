@@ -1,0 +1,54 @@
+lesson_id: L56
+lesson_title: Game design-Cultural Impact
+class_date: 2026-08-07
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:32:18 (5538 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1216459161) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11754788 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window 7:30-9:00 PM IST, recording runs 32 min past it
+  (1:32:18). Captions start late at 00:09:21 (likely un-captioned intro/housekeeping)
+  and run to 01:32:15 of 1:32:18 (99.9% coverage of the captioned span). 425 cues;
+  33,918 bytes; sha256
+  2E4A0108889FC222AB3BDC983DEF6D6DCC98833A817ACFE398701E69343D4AB2.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "game design document (GDD) structure via master template"
+  - "core loop detailing with flowcharts"
+  - "technology section: engine, coding language, server"
+  - "game mechanics detailing (weapon, progression systems)"
+  - "wireframing and prototyping tools"
+  - "document hierarchy: concept doc to GDD"
+  - "NFT/blockchain games discussion"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:09:36.210"
+    quote: >-
+      what goes into a game design document.
+    why: >-
+      Session is a GDD template walkthrough
+  - ts: "00:21:08.682"
+    quote: >-
+      So all these, each of these actions in one box, you have to create a flowchart and
+    why: >-
+      Core loop detailing with flowcharts
+  - ts: "01:30:16.384"
+    quote: >-
+      So, the player has a weapon system. That is a game mechanic. How does that work?
+    why: >-
+      Mechanics detailing in the GDD
+  - ts: "00:22:42.061"
+    quote: >-
+      till code loop. Okay? Till this section, start defining the
+    why: >-
+      Assigned GDD work up to core loop section

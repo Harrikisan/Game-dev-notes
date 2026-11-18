@@ -1,0 +1,51 @@
+lesson_id: L62
+lesson_title: Introduction to cinemachine and continue with gameplay implementation
+class_date: 2026-08-18
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:16:01 (4561 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1219272126) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11777245 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:16:01 vs 2 h). Captions: 00:00:08-01:16:00
+  of 1:16:01 (99.9% coverage). 830 cues; 69,481 bytes; sha256
+  9BC4DB417C0AC21E7322FE6D8684AAA636B30C367EFD498BD856379E718B8B74.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Debugging a student's path manager queue error (IndexOutOfRange, queue count/segments)"
+  - "Cinemachine dolly camera with path, priority and camera switching"
+  - "Unity Timeline: Playable Director, activation/animation/audio tracks, play on awake"
+  - "Timeline signals and signal receiver events"
+  - "Accelerometer input code for lane movement (X axis only)"
+  - "Creating a prefab with a player detector to collect/destroy items and increase count"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:10"
+    quote: >-
+      Index is out of range exception.
+    why: >-
+      Live debugging of student's pooling code
+  - ts: "00:27:57"
+    quote: >-
+      Once you create the timeline, it will automatically add a playable director here.
+    why: >-
+      Teaches Unity Timeline workflow
+  - ts: "00:54:26"
+    quote: >-
+      So I want to introduce the accelerator input.
+    why: >-
+      Accelerometer input implementation segment
+  - ts: "01:11:05"
+    quote: >-
+      there. So here I'm creating player detector.
+    why: >-
+      Collectible pickup detector build

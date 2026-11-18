@@ -1,0 +1,57 @@
+lesson_id: L01
+lesson_title: Introduction to C#
+class_date: 2026-05-07
+start_time: 19:30 IST (scheduled class window; per LMS video name "07-May-2026-7:30 PM-9:30 PM")
+end_time: 21:30 IST (scheduled class window; per LMS video name)
+duration: 1:54:42 (6882 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1190185452) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Edmingle class-records modal -> Vimeo player config -> signed WebVTT captions URL -> HTTP fetch from main LMS page context (original Phase-1 extraction through the logged-in LMS browser session; credentials never left the browser)
+extraction_date: 2026-11-16
+notes: >-
+  Copied verbatim into this library on 2026-11-17 from the existing immutable archive
+  transcripts/batch01/L01/L01-11436983.vtt (not re-downloaded; not modified).
+  Original archive location: transcripts/batch01/L01/L01-11436983.vtt (LMS attendance_id 11436983).
+  File facts: 1,905 cues / 7,621 lines / 140,598 bytes / sha256
+  5D04178CEF557FC7EF6E52776A7F10FC95BD12622F8ACCF279F20C31B0A2A505 (matches the hash documented
+  in lessons/batch01/L01-introduction-to-csharp/08-source-reference.md).
+  Coverage: captions span 00:02:32-01:54:39 of the 1:54:42 recording; 00:00-00:02:32 is pre-class
+  housekeeping with no captions; the 3 s tail (01:54:39-01:54:42) is captionless. Class content
+  is covered from 00:02:32 onward.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Unity editor basics (Hierarchy, Inspector, Scene/Game view)"
+  - "GameObjects, components and the transform"
+  - "MonoBehaviour and custom behavior scripts"
+  - "SpriteRenderer and rendering a circle sprite"
+  - "public fields and inspector references"
+  - "sprite sheets and asset import"
+  - "referencing components from code (drag-and-drop refs)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:44:25.128"
+    quote: >-
+      Unity has this class called MonoBehaviour.
+    why: >-
+      Core Unity scripting class taught explicitly
+  - ts: "00:23:06.172"
+    quote: >-
+      When I create empty game object, it just comes with a transform.
+    why: >-
+      Editor-side GameObject/component teaching
+  - ts: "01:30:39.664"
+    quote: >-
+      Now to add any custom behavior, we go to the folder Custom Behaviors,
+    why: >-
+      Writing custom C# behavior scripts
+  - ts: "01:54:06.204"
+    quote: >-
+      First, download the Unity.
+    why: >-
+      Explicit student task assigned at end

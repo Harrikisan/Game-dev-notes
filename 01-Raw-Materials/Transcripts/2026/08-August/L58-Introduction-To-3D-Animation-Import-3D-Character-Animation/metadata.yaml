@@ -1,0 +1,52 @@
+lesson_id: L58
+lesson_title: "Introduction to 3D animation, import 3D character animation"
+class_date: 2026-08-12
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:13:44 (4424 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1217701107) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11764310 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:13:44 vs 2 h). Captions: 00:00:32-01:13:39
+  of 1:13:44 (99.9% coverage). 1,150 cues; 86,816 bytes; sha256
+  D25153A29779217264F000A14DDFE7D29AF22678F0AD63AFFDC8E86E7B5DE534.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "3D Animator component and animation clips"
+  - "keyframing transform properties on a cube"
+  - "Mixamo character and animation download"
+  - "import types: Legacy, Generic, Humanoid and avatar mapping"
+  - "animator parameters, transitions and exit time"
+  - "Bake Into Pose and root motion"
+  - "setting animator parameters from code"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:22:51.756"
+    quote: >-
+      So you'll be having three different type of models:
+    why: >-
+      Introduces Legacy/Generic/Humanoid import types
+  - ts: "00:24:20.824"
+    quote: >-
+      Generic means for each character that is having different animations.
+    why: >-
+      Explains Generic rig type
+  - ts: "01:00:31.624"
+    quote: >-
+      From code, we have to apply root motion, we have to disable this, we have to
+    why: >-
+      Root motion handling in code
+  - ts: "01:13:18.154"
+    quote: >-
+      Yeah, you have to try to download one character from
+    why: >-
+      Assigned Mixamo practice task

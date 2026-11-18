@@ -1,0 +1,53 @@
+lesson_id: L86
+lesson_title: Graphic programming
+class_date: 2026-10-12
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:08:05 (4085 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1235101504) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11839094 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:08:05 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:08:04 of 1:08:05 (99.9% coverage). 857 cues;
+  66,481 bytes on disk (a couple of non-ASCII chars; in-page char count 66,479);
+  sha256 F7DC71614A12F075D70751D040594E483F20C4EC6805A0DF0901D7DDB842A885.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "GLFW poll events each frame"
+  - "keyboard input with GLFW_GetKey"
+  - "polling vs callbacks for input"
+  - "mouse button/move/scroll callbacks"
+  - "pan and zoom interactions on the fractal"
+  - "delta time and frame-rate independence"
+  - "interaction loop rebuilding the model matrix"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:23:07.590"
+    quote: >-
+      So we have always called the poll events in the end inside the code, but we never
+    why: >-
+      Explaining the poll-events step in the loop
+  - ts: "00:31:10.968"
+    quote: >-
+      So the functions are like GLFW_GetKey
+    why: >-
+      Concrete keyboard input API teaching
+  - ts: "00:37:50.508"
+    quote: >-
+      correct. So that is how you decide. When it is continuous, polling.
+    why: >-
+      Polling vs callback design for input
+  - ts: "01:07:40.375"
+    quote: >-
+      We won't have continuity. Practice this code, run it, execute it, deal with
+    why: >-
+      Explicit practice assignment for students

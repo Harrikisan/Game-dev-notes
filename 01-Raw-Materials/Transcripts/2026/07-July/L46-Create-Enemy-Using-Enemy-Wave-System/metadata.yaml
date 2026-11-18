@@ -1,0 +1,52 @@
+lesson_id: L46
+lesson_title: Create enemy using enemy wave system
+class_date: 2026-07-23
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:22:48 (4968 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1212387142) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11708594 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:22:48 vs 2 h). Captions: 00:00:12-01:22:45
+  of 1:22:48 (99.9% coverage). 1,047 cues; 74,853 bytes; sha256
+  3C7EF5635625B8E42D1262ED9BEAF3C0FB5A202B8B3465B3C75969560049FDAA.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "queue-based bullet pooling fix"
+  - "serializable Wave class"
+  - "enemy count and spawn delay per wave"
+  - "random spawn positions"
+  - "wave progression with enemiesAlive counter"
+  - "enemy death animation"
+  - "collision handling for enemy hits"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:07:52.172"
+    quote: >-
+      right? So we dequeue from the queue, then keep it
+    why: >-
+      Queue-based bullet pooling fix.
+  - ts: "00:22:20.938"
+    quote: >-
+      For wave, I'm going to create one class. Okay?
+    why: >-
+      Wave class for the wave system.
+  - ts: "00:46:54.556"
+    quote: >-
+      completed... This is the wave system.
+    why: >-
+      Wave system completion summary.
+  - ts: "01:22:08.290"
+    quote: >-
+      Okay. Yeah, try to practice this. We will check this on Monday, okay?
+    why: >-
+      Practice homework.

@@ -1,0 +1,54 @@
+lesson_id: L50
+lesson_title: implementing minmap
+class_date: 2026-07-29
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:27:02 (5222 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1213968075) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11728364 (section/class_id 531714, course 211072). LMS lesson
+  title kept verbatim incl. its "minmap" spelling (= "minimap"). Title is
+  lowercase as entered. Recording is shorter than the scheduled window (1:27:02
+  vs 2 h). Captions: 00:00:37-01:27:01 of 1:27:02 (99.9% coverage). 1,123 cues;
+  77,707 bytes; sha256
+  CE3DE5C7C33AA7DE9046600D7DEC2928180C0F0F579B8B608C479DE4872E3F22.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "enemy state bug fixing (awake init, duplicate state calls)"
+  - "player health damage system"
+  - "health ratio (currentHealth/maxHealth)"
+  - "minimap camera with render texture"
+  - "raw image and mask UI"
+  - "culling mask layers for minimap"
+  - "win/lose result screen hookup"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:07:19.650"
+    quote: >-
+      It is calling two times now. You should not call it two times, so I'm
+    why: >-
+      Debugging duplicate state calls.
+  - ts: "00:30:12.860"
+    quote: >-
+      So first thing, what is my health? Player health. Okay.
+    why: >-
+      Player health implementation.
+  - ts: "00:52:34.610"
+    quote: >-
+      For this, we have to create a raw image, not a sprite,
+    why: >-
+      Minimap display via raw image.
+  - ts: "01:25:07.322"
+    quote: >-
+      At that time, if the wave is totally completed, means we have to call
+    why: >-
+      Win condition triggers result screen.

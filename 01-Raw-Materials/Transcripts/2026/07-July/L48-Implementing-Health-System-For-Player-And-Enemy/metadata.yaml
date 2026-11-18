@@ -1,0 +1,53 @@
+lesson_id: L48
+lesson_title: Implementing health system for player and enemy
+class_date: 2026-07-27
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:25:37 (5137 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1213317718) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11724967 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:25:37 vs 2 h). Captions: 00:00:08-01:25:34
+  of 1:25:37 (99.9% coverage). 1,109 cues; 78,976 bytes; sha256
+  3ECA0C8590FC5297CF3E04EB55BD45592008038374B1743A4DF4D812C8781437.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "enemy health system (currentHealth/maxHealth)"
+  - "health bar UI with fill image"
+  - "spawn area bounds with Random.Range"
+  - "singleton pattern (AudioManager)"
+  - "object pooling as a design pattern"
+  - "enemy state pattern (idle/shoot/walk)"
+  - "debugging player movement (rigidbody constraints)"
+  - "death animation"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:13:39.950"
+    quote: >-
+      so first we will create a enemy health system.
+    why: >-
+      Core lesson goal: enemy health.
+  - ts: "00:33:14.846"
+    quote: >-
+      Basically, in the beginning, currentHealth will be same as maxHealth.
+    why: >-
+      Health initialization logic.
+  - ts: "00:48:45.464"
+    quote: >-
+      We have already discussed about singleton pattern, right?
+    why: >-
+      Singleton pattern for managers.
+  - ts: "00:56:36.600"
+    quote: >-
+      These are enemy states. So each state will be having something.
+    why: >-
+      Enemy state pattern.

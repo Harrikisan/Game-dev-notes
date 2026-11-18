@@ -1,0 +1,54 @@
+lesson_id: L08
+lesson_title: "User Interface Introduction (+ a practical)"
+class_date: 2026-05-20
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:10:19 (4219 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1194055002) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11481664 (section/class_id 531714, course 211072). LMS video name
+  "User Interface Introduction  a practical(20-May-2026-7:30 PM-9:30 PM)" (+ and ()
+  stripped by the LMS video naming). Recording is shorter than the scheduled window
+  (1:10:19 vs 2 h). Captions: 00:03:16-01:10:16 of 1:10:19 (99.9% coverage). 997 cues;
+  74,146 bytes; sha256
+  4930F3A55B5178DBC5BF1C3633E5154DF5E42ECE41535ACD780E1539C91429D7.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: ["GAME_DESIGN"]
+subject: "C# Programming"
+topics:
+  - "idle clicker genre and upgrade mechanics"
+  - "GameManager as static/singleton object"
+  - "[Serializable] custom data classes (food items)"
+  - "random food spawning across the screen"
+  - "Instantiate with cloned prefab transforms"
+  - "mouse position to world point conversion"
+  - "sprite ordering (cat on top, ordering layer)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:05.180"
+    quote: >-
+      So Idle Clicker is nothing but you will have a certain gameplay going
+    why: >-
+      Substantive genre/mechanics explanation before implementing
+  - ts: "00:22:57.860"
+    quote: >-
+      process of making this game manager a static object. So we'll discuss that.
+    why: >-
+      Singleton/static GameManager pattern
+  - ts: "00:33:06.562"
+    quote: >-
+      serializable. You need to add an attribute like this.
+    why: >-
+      Serializable data-class implementation
+  - ts: "01:09:59.186"
+    quote: >-
+      So try to make a thing like that, like a small prototype with
+    why: >-
+      Prototype task assigned to students

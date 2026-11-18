@@ -1,0 +1,51 @@
+lesson_id: L85
+lesson_title: Game Design - Feedback Loops
+class_date: 2026-10-09
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 22:00 IST (LMS end_time 1320 min)
+duration: 1:33:26 (5606 s, LMS recording length)
+instructor: Bhargava Ram Prasad
+source_type: LMS Edmingle class-records recording (Vimeo 1234456919) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11809208 (section/class_id 531714, course 211072). Scheduled
+  window is 2.5 h (7:30-10:00 PM IST); recording is 1:33:26, well inside it.
+  Captions: 00:05:10-01:33:22 of 1:33:26 (99.9% coverage). 1,023 cues; 66,198
+  bytes; sha256 061A77048B695F34FD5735BF06B9ADD4905C4EA4698A87895C2D939B1F030407.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unreal Blueprints"
+topics:
+  - "Unreal light types (point, spot, directional/sun)"
+  - "light actor placement and visibility toggles"
+  - "actors, pawn and game-manager concepts"
+  - "world settings"
+  - "Event Tick Blueprint scripting"
+  - "get player controller and print string nodes"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:05:22.280"
+    quote: >-
+      Yes. Ishnu sir is not available today,
+    why: >-
+      Explains why this slot became an Unreal engine class despite the design title
+  - ts: "00:17:20.555"
+    quote: >-
+      is going to move the sun direction.
+    why: >-
+      Directional light demo in Unreal
+  - ts: "01:04:11.616"
+    quote: >-
+      So now I want you guys to add a
+    why: >-
+      Explicit task: students add lights to the model themselves
+  - ts: "01:15:38.998"
+    quote: >-
+      Event tick is nothing but an update.
+    why: >-
+      Blueprint Event Tick scripting taught live

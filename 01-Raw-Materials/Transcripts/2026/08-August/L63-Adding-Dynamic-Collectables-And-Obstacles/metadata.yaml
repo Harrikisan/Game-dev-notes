@@ -1,0 +1,53 @@
+lesson_id: L63
+lesson_title: adding dynamic collectables and obstacles
+class_date: 2026-08-20
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:29:26 (5366 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1219933381) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11777252 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:29:26 vs 2 h). Captions: 00:00:10-01:29:24 of 1:29:26 (99.9% coverage).
+  1,156 cues; 79,648 bytes; sha256
+  63DE05CFF21A8D0810A1C5E08522706D0697897A0F6DE8879FA7E406743AD253.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Random.Range spawning of collectables (diamonds) and obstacles"
+  - "Collectable/obstacle queues for pooling, enabling and reuse"
+  - "Obstacle placement as blockers on player lanes"
+  - "Lane patterns and path/object generator spawn points"
+  - "Particle system introduction: 3D physics, simulation speed, play on awake, shape and scale"
+  - "Editing Cinemachine dolly curve knots (no curve import from Blender)"
+  - "Rotating collectibles and material transparency from Asset Store packs"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:10:42"
+    quote: >-
+      Same way for obstacles also, Random.Range from
+    why: >-
+      Random spawn positions for obstacles
+  - ts: "00:13:57"
+    quote: >-
+      Whenever we require it, we will take it from the queue, and we will enable it.
+    why: >-
+      Queue pooling of collectables
+  - ts: "01:09:36"
+    quote: >-
+      Here it is 3D game, so you can use 3D physics if you want to go
+    why: >-
+      Particle system module settings
+  - ts: "01:28:58"
+    quote: >-
+      will be having three days time, right? You can complete this one.
+    why: >-
+      Project completion assignment

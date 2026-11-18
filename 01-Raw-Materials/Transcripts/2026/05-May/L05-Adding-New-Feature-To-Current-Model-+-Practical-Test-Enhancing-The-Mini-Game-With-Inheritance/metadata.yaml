@@ -1,0 +1,54 @@
+lesson_id: L05
+lesson_title: "Adding new feature to current model + Practical Test- (Enhancing the mini game with inheritance)"
+class_date: 2026-05-13
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:12:02 (4322 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1191955984) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11457520 (section/class_id 531714, course 211072). LMS video name
+  "Adding new feature to current model  Practical Test- Enhancing the mini game with
+  inheritance(13-May-2026-7:30 PM-9:30 PM)" (+ and () are stripped by the LMS video
+  naming). Recording is shorter than the scheduled window (1:12:02 vs 2 h). Captions:
+  00:03:29-01:11:59 of 1:12:02 (99.9% coverage). 1,036 cues; 73,017 bytes; sha256
+  290D7960AA7E4FDFFBBB91539CC173BD2CA32C6DC62F49EF621F986E2D21BDB8.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Boolean state flags gating move logic"
+  - "if conditions and break statements"
+  - "Unity Input and KeyCode (GetKey/GetKeyDown)"
+  - "Debug.Log variants (log, warning, error)"
+  - "stopping at a journey percentage milestone"
+  - "MVC structure recap"
+  - "race win-condition scenario (player A vs player B)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:04:13.220"
+    quote: >-
+      the rectangle should stop
+    why: >-
+      Feature being added to the inherited model
+  - ts: "00:25:33.764"
+    quote: >-
+      Input is the model given by Unity, not C Sharp.
+    why: >-
+      Unity Input/KeyCode teaching
+  - ts: "01:11:23.056"
+    quote: >-
+      start the Discord server and discussing among yourself and
+    why: >-
+      Explicit group project task assigned
+  - ts: "01:11:36.976"
+    quote: >-
+      Try avoiding use of ChatGPT or Claude.
+    why: >-
+      Constraint given for the assigned task

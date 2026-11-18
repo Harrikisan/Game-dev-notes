@@ -1,0 +1,54 @@
+lesson_id: L73
+lesson_title: implementing multiplayer game
+class_date: 2026-09-09
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:28:34 (5314 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1225340424) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11837777 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Recording is shorter than the scheduled window
+  (1:28:34 vs 2 h). Captions: 00:00:05-01:28:32 of 1:28:34 (99.9% coverage). 984
+  cues; 81,166 bytes; sha256
+  D9E6A0F800C68703DC2B1099A7B4640F4E3C75C58E3696B2314DF6FB89B90165.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Raycast distance/shooting-range debugging"
+  - "Android push notifications (channels, permission, scheduled notifications)"
+  - "Android build settings (package name, keystore, version code, orientation)"
+  - "Development build, APK creation and emulator (BlueStacks) testing"
+  - "Unity Netcode for GameObjects setup"
+  - "Host/client architecture and networking protocols (TCP)"
+  - "NetworkManager, player prefab and NetworkBehaviour"
+  - "Host vs client input ownership testing"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:23.370"
+    quote: >-
+      So where you are using ray cast distance?
+    why: >-
+      Debugging student's shooting raycast range
+  - ts: "00:44:05.760"
+    quote: >-
+      So your package name should be .com
+    why: >-
+      Android build settings taught
+  - ts: "01:04:38.962"
+    quote: >-
+      So we are using the Unity netcode for game also for multiplayer game.
+    why: >-
+      Netcode for GameObjects introduced for multiplayer
+  - ts: "01:27:41.580"
+    quote: >-
+      think fine. Don't do like that. You have to test it in the client also because here
+    why: >-
+      Host vs client input testing in multiplayer

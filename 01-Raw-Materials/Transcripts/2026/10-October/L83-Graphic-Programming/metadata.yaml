@@ -1,0 +1,52 @@
+lesson_id: L83
+lesson_title: Graphic programming
+class_date: 2026-10-07
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:34:07 (5647 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1233781097) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860679 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:34:07 vs 2 h). Captions: 00:00:22-01:34:05
+  of 1:34:07 (99.9% coverage). 1,193 cues; 90,235 bytes; sha256
+  5DB9E6D39383D5B0896AD0BE9B466799F1B6760DD58B966CDB49A9CB41060E42.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "homogeneous coordinates (w=0 direction vs w=1 point)"
+  - "translation, rotation, scale (TRS)"
+  - "matrix-vector multiplication for transforms"
+  - "GLM translate/rotate/scale functions"
+  - "transformation order conventions (translate then rotate)"
+  - "uniform matrices in shaders"
+  - "delta-time based rotation animation"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:13:41.340"
+    quote: >-
+      Translation, rotation, and scale for a transform.
+    why: >-
+      Core transforms topic of the session
+  - ts: "00:30:37.279"
+    quote: >-
+      A point carries a hidden fourth number.
+    why: >-
+      Homogeneous coordinate w-component teaching
+  - ts: "00:51:09.486"
+    quote: >-
+      So how it is achieved, you just need to use a GLM function called
+    why: >-
+      Applying GLM functions for transforms in code
+  - ts: "01:33:22.830"
+    quote: >-
+      Try to rotate in the way you think. I want to make this triangle rotate
+    why: >-
+      Explicit hands-on code modification task

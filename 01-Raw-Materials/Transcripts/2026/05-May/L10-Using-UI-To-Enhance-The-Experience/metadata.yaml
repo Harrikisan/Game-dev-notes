@@ -1,0 +1,54 @@
+lesson_id: L10
+lesson_title: Using UI to enhance the experience
+class_date: 2026-05-22
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:18:11 (4691 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1194770661) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11489592 (section/class_id 531714, course 211072). LMS video name
+  "Using UI to enhance the experience(22-May-2026-7:30 PM-9:30 PM)". Recording is
+  shorter than the scheduled window (1:18:11 vs 2 h). Captions: 00:03:32-01:18:08 of
+  1:18:11 (99.9% coverage). 1,138 cues; 83,683 bytes; sha256
+  07BB4D01D6AF0F3F6C70B8DD839EABD766DD5C327A397230ED601D425EC33B0F.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Invoke for delayed function calls"
+  - "isEating state and points on eating"
+  - "UIManager separation of concerns"
+  - "points multiplier and eat speed tuning"
+  - "Canvas and resolution scaling"
+  - "pivots and anchors for UI positioning"
+  - "panels, buttons and on-click"
+  - "Image fill progress bars and TextMeshPro GUI"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:21:53.040"
+    quote: >-
+      So UI manager's only role is to just show whatever it is being given.
+    why: >-
+      UIManager separation-of-concerns design
+  - ts: "00:43:08.776"
+    quote: >-
+      So canvases are Unity's way of rendering user
+    why: >-
+      Canvas/UI system teaching
+  - ts: "00:49:57.182"
+    quote: >-
+      Okay? So pivots and anchors are nothing but every UI
+    why: >-
+      Anchor/pivot system explained
+  - ts: "01:15:52.328"
+    quote: >-
+      Do all the things till now, whatever you have done.
+    why: >-
+      Explicit task assigned before Monday

@@ -1,0 +1,53 @@
+lesson_id: L11
+lesson_title: Progressing with UI interactions
+class_date: 2026-05-25
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 0:20:09 (1209 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1195345850) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11498416 (section/class_id 531714, course 211072). LMS video name
+  "Progressing with UI interactions(25-May-2026-7:30 PM-9:30 PM)". IMPORTANT: the
+  uploaded recording is only 0:20:09 long although the scheduled window was 2 h -
+  the LMS recording itself is a short fragment/session; the transcript fully covers
+  what the recording contains (captions 00:03:23-00:20:06 of 0:20:09, 99.9%). 131
+  cues; 8,142 bytes; sha256
+  7DEDDA1EBBD6129215830CF10937FC18170B896D6BE97333C3AC8EE6E6776E5A. Same-title
+  session continues on 2026-05-26 as L12.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Kitty clicker project catch-up"
+  - "KittyController properties (cat speed, points multiplier, eating speed)"
+  - "UI-driven upgrade values"
+  - "Vector-based movement directions"
+classification_confidence: MEDIUM
+classification_evidence:
+  - ts: "00:05:56"
+    quote: >-
+      The cat kitty clicker?
+    why: >-
+      Names the C# clicker project the class works in
+  - ts: "00:08:22"
+    quote: >-
+      all the features in numbers, cat speed,
+    why: >-
+      Assigned gameplay features students must implement
+  - ts: "00:08:37"
+    quote: >-
+      Kitty Controller, they should be there.
+    why: >-
+      C# controller class holds the upgrade properties
+  - ts: "00:08:39"
+    quote: >-
+      Those values we'll be upgrading from our UI.
+    why: >-
+      Ties UI work to controller values (lesson title focus)

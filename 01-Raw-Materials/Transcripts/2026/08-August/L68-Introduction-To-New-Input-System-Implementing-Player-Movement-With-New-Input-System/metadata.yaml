@@ -1,0 +1,51 @@
+lesson_id: L68
+lesson_title: "Introduction to new input system, implementing player movement with new input system"
+class_date: 2026-08-31
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:19:33 (4773 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1222743006) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11808958 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:19:33 vs 2 h). Captions: 00:00:56-01:19:32
+  of 1:19:33 (99.9% coverage). 1,024 cues; 74,340 bytes; sha256
+  B58C4927309598951F0ACEAA09711408908C0DE6D98B7C1984F3FE7A915F4C8A.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Difference between old Input System and new Input System"
+  - "Input Actions asset: action maps (player/UI), actions, bindings, control schemes (keyboard/mouse/gamepad)"
+  - "Action types: Button vs Value, IsPressed, input.value, UnityEvents vs code callbacks"
+  - "Player movement with Rigidbody and Character Controller from input values"
+  - "Vertical velocity, gravity (-9.8/-2) and jump logic"
+  - "Animator parameters (SetBool) for idle/run/jump/fall states and ground contact"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:33"
+    quote: >-
+      so if you are familiar with old input system, you can easily adapt to the new
+    why: >-
+      Old vs new Input System comparison
+  - ts: "00:09:51"
+    quote: >-
+      So jump is a button action, not a get
+    why: >-
+      Button vs value action types
+  - ts: "00:32:08"
+    quote: >-
+      Open the code. Now we are using character controller.
+    why: >-
+      Character Controller movement implementation
+  - ts: "01:18:58"
+    quote: >-
+      Use input system and try to do some player
+    why: >-
+      Explicit practice assignment

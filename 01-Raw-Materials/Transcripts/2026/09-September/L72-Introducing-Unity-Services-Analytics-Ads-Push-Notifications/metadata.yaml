@@ -1,0 +1,52 @@
+lesson_id: L72
+lesson_title: "Introducing unity services: analytics, ads, push notifications"
+class_date: 2026-09-08
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:26:41 (5201 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1224987642) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11837775 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:26:41 vs 2 h). Captions: 00:00:09-01:26:37
+  of 1:26:41 (99.9% coverage). 915 cues; 76,756 bytes; sha256
+  46FC2435FE78AF28C8C66038664F3CAC7680E2F0F31D855FDA91F84CBA603D72.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: ["GAME_DESIGN"]
+subject: "Unity Engine"
+topics:
+  - "Monetization via ads vs in-app purchases"
+  - "Ad networks (Unity Ads, AdMob, AppLovin, IronSource)"
+  - "Rewarded, interstitial and banner ad types"
+  - "Ad unit IDs, test mode and ad initialization"
+  - "Loading/showing ads with load-success callbacks"
+  - "Unity Analytics default vs custom events (game launch)"
+  - "UnityServices.InitializeAsync and analytics manager singleton"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:00:48.990"
+    quote: >-
+      Where is your monetization source? One source is ads.
+    why: >-
+      Monetization framing for the ads lesson
+  - ts: "00:15:08.355"
+    quote: >-
+      Here, I want to show interstitial ad. Okay?
+    why: >-
+      Implementing interstitial ads in code
+  - ts: "01:12:59.214"
+    quote: >-
+      We have to call Unity Services initialize async. That's it. Okay?
+    why: >-
+      Unity Services/analytics initialization code
+  - ts: "01:06:42.744"
+    quote: >-
+      As a developer, you don't want to stuck your users in some levels.
+    why: >-
+      Design rationale: tuning level difficulty from analytics data

@@ -1,0 +1,53 @@
+lesson_id: L76
+lesson_title: Unity Advanced
+class_date: 2026-09-15
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:10:17 (4217 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1227019549) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11859257 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:10:17 vs 2 h). Captions start at the very
+  beginning (00:00:00) and run to 01:10:15 of 1:10:17 (99.9% coverage). 637 cues;
+  52,844 bytes; sha256
+  4949E3DCF23115216A0BAB9FADC52809A7259B8F8D238A7FE6E9742BA0D5009C.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Build troubleshooting (Android/Gradle errors, Windows EXE build)"
+  - "APK size reduction via texture compression"
+  - "Editor log build-size analysis and texture max size"
+  - "Draw calls, stats window (FPS, CPU, triangles)"
+  - "Static batching and GPU instancing"
+  - "Reflection probes for metallic/glassy materials"
+  - "URP post-processing: bloom, motion blur, color vignette, depth of field"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:07:51.811"
+    quote: >-
+      How we can compress our APK size? First thing, we should go to the textures.
+    why: >-
+      APK size optimization via textures
+  - ts: "00:30:40.236"
+    quote: >-
+      Let me check that in the settings. Where is that option? Yeah, static batching.
+    why: >-
+      Static batching demo for draw-call reduction
+  - ts: "00:38:48.252"
+    quote: >-
+      Okay, if you use GPU instancing, what CPU will do is... Okay.
+    why: >-
+      GPU instancing performance technique explained
+  - ts: "01:07:06.222"
+    quote: >-
+      Color vignette. It will darken its edges.
+    why: >-
+      URP post-processing effects demonstrated

@@ -1,0 +1,51 @@
+lesson_id: L92
+lesson_title: Graphic programming
+class_date: 2026-10-27
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 0:47:10 (2830 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1239889031) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11934177 (section/class_id 531714, course 211072). Recording is
+  much shorter than the scheduled window (0:47:10 vs 2 h). Captions:
+  00:00:01-00:47:07 of 0:47:10 (99.9% coverage). 541 cues; 42,176 bytes; sha256
+  86934C5707ADEC50AB9810710A31F7AAADCD02751343C0F09A34322CCF94C2F0.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "shadow mapping concept and two-pass algorithm"
+  - "depth buffer rendered from the light's point of view"
+  - "shadow map stored as a depth texture"
+  - "light-space matrices, clip space and perspective divide"
+  - "sampling depth and applying shadow factor to diffuse/specular"
+  - "shadow artifacts: sharp edges and bias"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:06:59"
+    quote: >-
+      There are two phases of shadow mapping, two passes basically in
+    why: >-
+      Introduces the two-pass shadow mapping algorithm.
+  - ts: "00:27:59"
+    quote: >-
+      In the graphics pipeline, which is the depth buffer.
+    why: >-
+      Uses the graphics pipeline depth buffer for shadows.
+  - ts: "00:34:35"
+    quote: >-
+      Okay. So now let's build it. So we now turn these two passes
+    why: >-
+      Moves from algorithm to implementing the shadow code.
+  - ts: "00:46:08"
+    quote: >-
+      Bias is what we need to optimize. I'll tell you how it is optimized.
+    why: >-
+      Shadow bias optimization discussed for next session.

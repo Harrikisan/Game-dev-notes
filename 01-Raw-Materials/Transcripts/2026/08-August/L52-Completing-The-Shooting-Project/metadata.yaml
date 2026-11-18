@@ -1,0 +1,52 @@
+lesson_id: L52
+lesson_title: Completing the shooting project
+class_date: 2026-08-03
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:12:21 (4341 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1215225532) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11728366 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:12:21 vs 2 h). Captions: 00:00:17-01:12:19
+  of 1:12:21 (99.9% coverage). 905 cues; 63,291 bytes; sha256
+  C1FCE38E719D3CDD1D4DE9CC4CD0A6BA5A988A505C9D1A834420E6162AE03E29.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "prefab variants and nested prefabs"
+  - "patrol/chasing enemy types from a base enemy"
+  - "waypoint array targeting in script"
+  - "rigidbody linear velocity movement"
+  - "fixing player rotation bug"
+  - "enemy bullet collision and destruction"
+  - "enemy state machine (idle/patrol/chase)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:13:20.980"
+    quote: >-
+      So prefab variant is same enemy,
+    why: >-
+      Teaches prefab variants for enemy types
+  - ts: "00:34:15.598"
+    quote: >-
+      If this length of this one, patrolPoints.Length, if the length
+    why: >-
+      C# waypoint logic implementation
+  - ts: "00:51:32.842"
+    quote: >-
+      We are adding linear velocity in that direction I want to move.
+    why: >-
+      Rigidbody movement implementation
+  - ts: "01:11:44.944"
+    quote: >-
+      type of prefab variants, and nested prefabs also we learned
+    why: >-
+      Recap confirms prefab variant/nested prefab focus

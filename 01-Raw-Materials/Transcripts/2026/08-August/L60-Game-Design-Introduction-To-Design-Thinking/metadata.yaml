@@ -1,0 +1,53 @@
+lesson_id: L60
+lesson_title: Game Design- Introduction to Design Thinking
+class_date: 2026-08-14
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:28:45 (5325 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1218353368) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11772750 (section/class_id 531714, course 211072). Game Design
+  session. Recording is shorter than the scheduled window (1:28:45 vs 2 h).
+  Captions: 00:00:56-01:28:44 of 1:28:45 (99.9% coverage). 1,645 cues; 121,855
+  bytes; sha256
+  C7D646187DDFCD7ED8C98F7218F56D1BC6ADA99C47910BFA023694DF3E430C99.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "GDD mechanics detailing (combat, inventory, ranged/melee)"
+  - "player empathy: putting yourself in the player's shoe"
+  - "core loop and progression systems review"
+  - "wireframes and why they matter"
+  - "interactive prototyping: transitions, onClick, After Delay"
+  - "system design process with parameter interdependency"
+  - "production handover and kickoff"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:28:18.556"
+    quote: >-
+      Okay? Put yourself in the player's shoe to understand what you feel would
+    why: >-
+      Player-perspective design thinking
+  - ts: "01:06:52.342"
+    quote: >-
+      in the Design tab here. Okay? Prototyping is for connecting
+    why: >-
+      Prototyping tool demonstration
+  - ts: "01:26:28.638"
+    quote: >-
+      Okay? So that is the process of system design.
+    why: >-
+      Explicit system design process teaching
+  - ts: "01:28:22.958"
+    quote: >-
+      So referring to what I am doing, I want you to do the same for your concept.
+    why: >-
+      Assigned wireframing practice for students

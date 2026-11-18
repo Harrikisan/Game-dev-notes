@@ -1,0 +1,57 @@
+lesson_id: L64
+lesson_title: Game Design- Idea Generation Techniques
+class_date: 2026-08-21
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:29:33 (5373 s, LMS recording length)
+instructor: Vishnu Bhupathiraju
+source_type: LMS Edmingle class-records recording (Vimeo 1220235352) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11776452 (section/class_id 531714, course 211072). Game Design
+  session; scheduled window 7:30-9:00 PM IST, recording runs 39:33 past it
+  (1:29:33). Captions: 00:04:02-01:29:33 (captions run to the recording's final
+  second). 421 cues; 28,732 bytes; sha256
+  D7AB4CA2D4E39A0A3EA29674160116C26C67B9064A0296BEE8BBA48712BB77EB.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DESIGN
+secondary_tracks: []
+subject: "Game Design"
+topics:
+  - "Wireframing game UI screens in Figma (and Adobe XD as alternative)"
+  - "Screen flow: loading screen, main menu, level map navigation"
+  - "Mobile game screen contents: main menu, settings (SFX, haptics, privacy/terms), profile with upgrades/skins"
+  - "Building wireframes based on students' GDD games"
+  - "Figma prototype mode linking between frames"
+  - "Scaling wireframes to screen size so developers can follow them"
+classification_confidence: MEDIUM
+classification_evidence:
+  - ts: "00:08:54"
+    quote: >-
+      So you guys completed the GDD, right?
+    why: >-
+      Class builds on students' game design documents
+  - ts: "00:09:17"
+    quote: >-
+      Okay? So typically, wireframe is done in
+    why: >-
+      Wireframing is the core taught content (Figma/XD)
+  - ts: "00:14:26"
+    quote: >-
+      In main menu, what are the things that are there?
+    why: >-
+      Designing screen contents as design practice
+  - ts: "01:19:24"
+    quote: >-
+      So below that, the design is there, right? Click on Prototype.
+    why: >-
+      Figma prototype linking of screens
+  - ts: "01:28:36"
+    quote: >-
+      follow that itself. Because looking at this only, the developers
+    why: >-
+      Wireframe as developer reference document

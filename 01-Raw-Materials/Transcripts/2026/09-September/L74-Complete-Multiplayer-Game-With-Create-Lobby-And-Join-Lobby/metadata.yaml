@@ -1,0 +1,55 @@
+lesson_id: L74
+lesson_title: complete multiplayer game with create lobby and join lobby
+class_date: 2026-09-10
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:57:33 (7053 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1225690659) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11837778 (section/class_id 531714, course 211072). LMS lesson
+  title is lowercase as entered. Longest recording in the course: runs 27 min past
+  the scheduled window (1:57:33 vs 2 h). Captions: 00:00:05-01:57:31 of 1:57:33
+  (99.9% coverage). 1,183 cues; 92,676 bytes on disk (some non-ASCII chars;
+  in-page char count 92,656); sha256
+  2D8693873AF1876CE39C293BA6ED469765E84375104B08BAD0F0CD3E67A73F6D.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "NetworkTransform authority (owner vs server)"
+  - "Server-side coin prefab instantiation and NetworkObject spawning"
+  - "Network variables with write/read permissions"
+  - "Client RPCs and Server RPCs"
+  - "NetworkManager.Singleton.localClientId and winner tracking"
+  - "Game manager with target coin count and win/lose result screen"
+  - "Unity Lobby service (create/join room, ready checks) and Relay"
+  - "Unity Services initialization for lobby"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:06.540"
+    quote: >-
+      But if you want to move the object in the network, you need network transform, as I
+    why: >-
+      NetworkTransform authority fix (owner vs server)
+  - ts: "00:23:38.292"
+    quote: >-
+      So after instantiating, we are spawning it as a network object.
+    why: >-
+      Server-side coin spawning with NetworkObject
+  - ts: "01:06:51.180"
+    quote: >-
+      So for that, we'll be having two type of methodologies there, client RPCs there,
+    why: >-
+      Client/Server RPC communication taught
+  - ts: "01:17:37.365"
+    quote: >-
+      Lobby is nothing but one room, everyone will be joining that.
+    why: >-
+      Lobby service concept explained

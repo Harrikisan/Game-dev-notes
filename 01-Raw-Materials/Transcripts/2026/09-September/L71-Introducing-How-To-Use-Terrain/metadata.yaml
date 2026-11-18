@@ -1,0 +1,48 @@
+lesson_id: L71
+lesson_title: Introducing how to use terrain
+class_date: 2026-09-07
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:22:42 (4962 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1224659803) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11834307 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (1:22:42 vs 2 h). Captions: 00:00:08-01:22:40
+  of 1:22:42 (99.9% coverage). 815 cues; 60,209 bytes on disk (a couple of
+  non-ASCII chars; in-page char count 60,207); sha256
+  B9516EE159FEF7B791A21AA14D439106ABE7302F6CD79F80B1F2F319A390253C.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Enemy AI state machine (patrol/chase/attack) bug fixing"
+  - "Player health, damage and health-bar slider debugging"
+  - "Input Action Maps (keyboard/mouse)"
+  - "Terrain shaping and sculpting (mountains)"
+  - "Terrain layers and texture painting"
+  - "Tree painting, Mass Place Trees and tree colliders"
+  - "Grass textures and detail meshes"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:01:59.760"
+    quote: >-
+      Instead of keeping it inside update, we need to decide which state we need to
+    why: >-
+      Fixing enemy AI state-machine code (patrol/chase/attack)
+  - ts: "00:43:27.067"
+    quote: >-
+      to that shape. So how to change the terrain shape, that is the next thing.
+    why: >-
+      Main topic introduced: terrain shaping tools
+  - ts: "01:13:45.390"
+    quote: >-
+      And one more option is there for trees, Mass Place Trees is there.
+    why: >-
+      Terrain tree-painting features demonstrated

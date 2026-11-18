@@ -1,0 +1,51 @@
+lesson_id: L97
+lesson_title: Graphic programming
+class_date: 2026-11-05
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:32:22 (5542 s, LMS recording length)
+instructor: Aswin Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1243813143) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11860668 (section/class_id 531714, course 211072). Recording runs
+  2:22 past the scheduled window (1:32:22 vs 2 h). Captions: 00:00:14-01:32:18 of
+  1:32:22 (99.9% coverage). 1,201 cues; 92,226 bytes; sha256
+  17A0A88DB514D152EC46A37D7DA0C8A09DC5CCBEBFC75E95EE46E82A26777841.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Graphics Programming (OpenGL)"
+topics:
+  - "Assimp aiScene scene graph: nodes, meshes, materials"
+  - "Model class: load model, process node, process mesh"
+  - "diffuse and specular texture lookup and GPU upload"
+  - "GLM rotate for key-press model rotation"
+  - "static classes vs instances (GameObject analogy)"
+  - "graceful exit codes (-1)"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:02:08"
+    quote: >-
+      We'll wait for another five minutes and then start unit four, session two.
+    why: >-
+      Continuation of unit 4 model loading course.
+  - ts: "00:08:52"
+    quote: >-
+      How will you validate that? Because GLM rotate, check the signature of that.
+    why: >-
+      Uses GLM rotate for model transformation demo.
+  - ts: "00:29:21"
+    quote: >-
+      Node to mesh, mesh to material. These two.
+    why: >-
+      Assimp scene-graph relationships being taught.
+  - ts: "01:04:09"
+    quote: >-
+      So for the model class, we have load model, process node, process mesh, and nodes.
+    why: >-
+      Model class implementation walkthrough.

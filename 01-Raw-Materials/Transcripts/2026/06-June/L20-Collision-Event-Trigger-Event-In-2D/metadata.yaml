@@ -1,0 +1,53 @@
+lesson_id: L20
+lesson_title: Collision event trigger event in 2D
+class_date: 2026-06-09
+start_time: 20:00 IST (LMS start_time 1200 min)
+end_time: 21:00 IST (LMS end_time 1260 min)
+duration: 1:02:59 (3779 s, LMS recording length)
+instructor: Ashwini Dimmaiahgari
+source_type: LMS Edmingle class-records recording (Vimeo 1199821477) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11562279 (section/class_id 531714, course 211072). Scheduled window
+  8:00-9:00 PM IST; recording runs 2:59 past it (1:02:59). Captions start at
+  00:00:06 and run to 01:02:54 of 1:02:59 (99.9% coverage). 898 cues; 65,785 bytes;
+  sha256 62949A0E5D48270B0C3461CD1D90997692274985498DF974EDE0C705C2F2471C.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "Unity Engine"
+topics:
+  - "Collect-the-objects 2D project"
+  - "Rigidbody2D and collider editing"
+  - "Kinematic body type"
+  - "Moving objects with transform.position and Vector3"
+  - "Input.GetAxis vs GetAxisRaw"
+  - "Frame-rate independence"
+  - "Position clamping with Mathf"
+  - "OnTriggerEnter2D and tag comparison"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:00:57"
+    quote: >-
+      collecting the objects kind of project.
+    why: >-
+      Defines the 2D collect-objects class project
+  - ts: "00:08:42"
+    quote: >-
+      What kinematic body type does is it won't affect with
+    why: >-
+      Kinematic body type explanation
+  - ts: "00:32:58"
+    quote: >-
+      -1 to 1. That is the difference between get axis raw and get axis.
+    why: >-
+      Input axis variants compared
+  - ts: "01:02:05"
+    quote: >-
+      Collision events, moving the objects with input.
+    why: >-
+      Recap of lesson topics

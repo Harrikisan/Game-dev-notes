@@ -1,0 +1,53 @@
+lesson_id: L17
+lesson_title: Harvest Mechanic + Implementation of save system
+class_date: 2026-06-04
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 0:53:07 (3187 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1198453361) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (navigation from LMS page so the LMS origin is the referer) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11548643 (section/class_id 531714, course 211072). Recording is
+  shorter than the scheduled window (0:53:07 vs 2 h). Captions: 00:02:46-00:53:01
+  of 0:53:07 (99.9% coverage). 427 cues; 28,722 bytes; sha256
+  8BCB03E901CD63FEDAFED0053C313616375882BD02E463FCE7A7569541B0FF35.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "Harvest ticks and last harvested time"
+  - "Mature time ticks calculation"
+  - "Fruit production over elapsed time"
+  - "Fruit sales manager"
+  - "TimeSpan.FromTicks"
+  - "Integer flooring of fruit counts"
+  - "C# variable scoping error debugging"
+  - "Layout Group and Content Size Fitter"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:13:20"
+    quote: >-
+      variable called harvest ticks, last harvested.
+    why: >-
+      New tick variables for harvest tracking
+  - ts: "00:14:20"
+    quote: >-
+      Okay, so planted time plus seven seconds will be mature time ticks.
+    why: >-
+      Maturity computed from planted time
+  - ts: "00:16:16"
+    quote: >-
+      So the five fruits will be automatically getting updated on the ground tile.
+    why: >-
+      Elapsed time converted to fruit count
+  - ts: "00:52:51"
+    quote: >-
+      Okay. So do the harvest logic, and after that, just post
+    why: >-
+      Assigned: implement harvest logic and share progress

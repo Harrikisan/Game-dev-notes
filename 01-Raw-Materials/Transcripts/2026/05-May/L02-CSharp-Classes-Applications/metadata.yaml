@@ -1,0 +1,56 @@
+lesson_id: L02
+lesson_title: C# classes applications
+class_date: 2026-05-08
+start_time: 19:30 IST (LMS start_time 1170 min)
+end_time: 21:30 IST (LMS end_time 1290 min)
+duration: 1:24:25 (5065 s, LMS recording length)
+instructor: Nikhil Vijay Raj
+source_type: LMS Edmingle class-records recording (Vimeo 1190528441) - auto-generated English WebVTT captions
+transcript_language: en
+transcript_status: COMPLETE
+extraction_method: Vimeo player config JSON (fetched by navigating from the LMS page so the LMS origin is the referer, satisfying the video's domain restriction) -> signed captions.vimeo.com URL -> HTTP fetch from the LMS page context -> browser blob download -> copied into this library
+extraction_date: 2026-11-17
+notes: >-
+  attendance_id 11442116 (section/class_id 531714, course 211072 "April 2026-Advanced
+  Diploma in Game Development"). LMS video name "C classes applications(08-May-2026-7:30
+  PM-9:30 PM)" (the LMS strips # from video names; scheduled title is "C# classes
+  applications"). Captions: 00:05:45-01:24:22 of the 1:24:25 recording (99.9% coverage;
+  the first 5 min 45 s is pre-class housekeeping with no captions). 1,348 cues;
+  93,099 bytes; sha256
+  B24EC2656969EC808EED9FD1258F9FE289FCF0762742C35B9BE8D25A670FDEB4.
+
+# Phase 2a multi-track classification (added 2026-11-17; see 01-Raw-Materials/LESSON-CLASSIFICATION.json)
+primary_track: GAME_DEVELOPMENT
+secondary_tracks: []
+subject: "C# Programming"
+topics:
+  - "C# classes with properties (dish data)"
+  - "arrays vs List<T> and System.Collections.Generic"
+  - "storing/loading game data (sprites, icons, prices)"
+  - "SpriteRenderer and UI rendering"
+  - "Rect Transform for UI elements"
+  - "TextMeshPro text components"
+  - "defining and calling functions"
+  - "ordering layer for sprite sorting"
+classification_confidence: HIGH
+classification_evidence:
+  - ts: "00:14:24.050"
+    quote: >-
+      Let's say you are building this restaurant kind of game.
+    why: >-
+      Data-modeling exercise for a game menu
+  - ts: "00:36:03.490"
+    quote: >-
+      In the same way, list, what data type I want to store,
+    why: >-
+      Teaching List<T> data storage
+  - ts: "01:00:24.584"
+    quote: >-
+      Rect transform. Because mostly UI elements will have some width and
+    why: >-
+      Unity UI implementation content
+  - ts: "01:10:06.056"
+    quote: >-
+      Okay. Now, I want to define a function
+    why: >-
+      Writing functions to load dish data
